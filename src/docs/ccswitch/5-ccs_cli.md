@@ -23,7 +23,7 @@ order: 5
 
 </div>
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/018.png)
+![](/assets/image/CC-Switch/018.webp)
 
 ---
 
@@ -229,16 +229,16 @@ cc-switch
 
 2. 下拉在左侧选择 `Providers` ，回车选中，并按下 `a` 键，进入供应商添加页面
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/019.png)
+![](/assets/image/CC-Switch/019.webp)
 
 3. 在上方模板中选择 `PackyCode`
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/020.png)
+![](/assets/image/CC-Switch/020.webp)
 
 4. 在 `Api Key` 处填写你的Apikey回车，并按下 `Ctrl+S` 进行保存
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/021.png)
+![](/assets/image/CC-Switch/021.webp)
 
 5. 确保此时选中的是刚才配置的Provider，然后在左侧菜单中退出 CC Switch CLI
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/022.png)
+![](/assets/image/CC-Switch/022.webp)

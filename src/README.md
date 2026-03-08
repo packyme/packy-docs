@@ -2,7 +2,7 @@
 home: true
 icon: house
 title: 主页
-heroImage: https://cdn.xf233.io/project/Packy-docs/logo/logo.png
+heroImage: /logo.webp
 bgImageStyle:
   background-attachment: fixed
 heroText: PackyApi文档站
@@ -103,7 +103,7 @@ onBeforeUnmount(() => {
         <div class="logo-wrapper">
           <img
             class="qq-logo"
-            src="https://cdn.xf233.io/project/Packy-docs/logo/qq.png"
+            src="/assets/image/logo/qq.webp"
             alt="售后QQ群一"
           />
           <div class="logo-glow"></div>
@@ -132,7 +132,7 @@ onBeforeUnmount(() => {
         <div class="logo-wrapper">
           <img
             class="qq-logo"
-            src="https://cdn.xf233.io/project/Packy-docs/logo/qq.png"
+            src="/assets/image/logo/qq.webp"
             alt="售后QQ群二"
           />
           <div class="logo-glow"></div>

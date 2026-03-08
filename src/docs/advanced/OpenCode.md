@@ -5,7 +5,7 @@ icon: mynaui:code-hexagon-solid
 
 ## 项目介绍
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/01.png)
+![](/assets/image/Advanced/OpenCode/01.webp)
 
 - **项目定位**: 一个开源的 AI 编程助手，可在终端、IDE 或桌面环境中辅助编写、调试和改进代码。
 - **核心特色**:  
@@ -26,13 +26,13 @@ npm install -g opencode-ai
 
 2. 安装完成后，在终端输入 `opencode` 命令若出现界面，则安装成功
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/02.png)
+![](/assets/image/Advanced/OpenCode/02.webp)
 
 3. 查看 [CC Switch下载](/docs/ccswitch/1-common.html) 一节的内容，下载并安装 CC-Switch 到本地，安装并打开软件
 
 4. 上方配置项选择到 `OpenCode` ，然后点击 `添加供应商` 按钮
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/03.png)
+![](/assets/image/Advanced/OpenCode/03.webp)
 
 5. 进行多项配置：
 
@@ -61,22 +61,22 @@ npm install -g opencode-ai
         - 模型ID：gpt-5.2-codex 显示名称：gpt-5.2-codex
     - 全部配置好后，点击右下角 `添加` 按钮
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/04.png)
+![](/assets/image/Advanced/OpenCode/04.webp)
 
 6. 在界面中选择刚配置好的 PackyApi 渠道，点击添加按钮
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/05.png)
+![](/assets/image/Advanced/OpenCode/05.webp)
 
 ## 验证配置
 1. 重新打开终端，输入 `opencode` 运行
 
 2. 输入 `/models` 命令，观察刚才配置的 PackyApi的渠道是否存在，如果存在则配置成功
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/06.png)
+![](/assets/image/Advanced/OpenCode/06.webp)
 
 3. 开始愉快的对话吧~
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenCode/07.png)
+![](/assets/image/Advanced/OpenCode/07.webp)
 
 ## Codex包月站用户须知
 ::: important

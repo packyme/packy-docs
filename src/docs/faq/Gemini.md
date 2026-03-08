@@ -18,7 +18,7 @@ Gemini CLI 目前存在多种使用问题，例如可能无法正常调用模型
 - 如必须使用 Gemini CLI，建议使用 Antigravity 分组渠道（兼容性更好）
 :::
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Gemini/001.png)
+![](/assets/image/FAQ/Gemini/001.webp)
 
 > [!important]
 > 如果你不会使用 Roo Code，我们推荐你使用 Antigravity 分组渠道的模型在 Gemini CLI 使用，能比较好地适配 CLI。特别提醒：该分组的 Gemini-3 模型名称可能与其他分组不同，详情查看 [Antigravity 分组说明](/docs/token/2-token.html#antigravity分组) 内容，避免配置时出现“无可用渠道”或“模型不存在”问题。
@@ -40,7 +40,7 @@ Gemini CLI 目前存在多种使用问题，例如可能无法正常调用模型
 
 按照 [创建 API 令牌](/docs/register/4-token.html) 一章提到的方法，创建如下图中 `gemini` 分组的令牌：
 
-![创建 API 选择分组示意图](https://cdn.xf233.io/project/Packy-docs/FAQ/Gemini/002.png)
+![创建 API 选择分组示意图](/assets/image/FAQ/Gemini/002.webp)
 
 #### 2. 安装 Cline 插件
 
@@ -83,7 +83,7 @@ API Key: sk-*****
 Model ID: gemini-3-pro-preview
 ```
 
-![Cline 配置界面示意图](https://cdn.xf233.io/project/Packy-docs/FAQ/Gemini/003.png)
+![Cline 配置界面示意图](/assets/image/FAQ/Gemini/003.webp)
 
 ::: warning 安全提醒
 请妥善保管你的 `API Key`，不要在群聊或公开截图中泄露。

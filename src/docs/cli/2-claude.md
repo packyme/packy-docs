@@ -14,13 +14,13 @@ order: 2
 %userprofile%\.claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/013.png)
+![](/assets/image/Cli/013.webp)
 
 2. 目录内容如图所示，如果目录中没有 `settings.json`，你需要手动创建后打开
 
 - **settings.json**：Claude主要的配置文件，主要用来配置中转站地址以及ApiKey，以及一些hooks，plugins等
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/014.png)
+![](/assets/image/Cli/014.webp)
 
 3. 将以下内容写入 `settings.json`
 
@@ -34,15 +34,15 @@ order: 2
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/015.png)
+![](/assets/image/Cli/015.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **CC** 分组的令牌，替换上方 `xxx`部分
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/025.png)
+![](/assets/image/Cli/025.webp)
 
 5. 在windows终端运行 `claude`，出现对话界面后进行对话测试，能收到回复即表示配置成功
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/016.png)
+![](/assets/image/Cli/016.webp)
 
 @tab MacOS
 
@@ -52,13 +52,13 @@ order: 2
 ~/.claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/017.png)
+![](/assets/image/Cli/017.webp)
 
 2. 若目录不存在 `settings.json`，需要你手动进行创建
 
 - **settings.json**：Claude主要的配置文件，主要用来配置中转站地址以及ApiKey，以及一些hooks，plugins等
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/018.png)
+![](/assets/image/Cli/018.webp)
 
 3. 将以下内容写入 `settings.json`
 
@@ -72,15 +72,15 @@ order: 2
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/015.png)
+![](/assets/image/Cli/015.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **CC** 分组的令牌，替换上方 `xxx`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/025.png)
+![](/assets/image/Cli/025.webp)
 
 5. 在终端运行 `claude`，看到对话界面并能正常回复即表示配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/016.png)
+![](/assets/image/Cli/016.webp)
 
 :::
 

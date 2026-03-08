@@ -6,14 +6,14 @@ order: 4
 
 登录后进入控制台面板。
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/003.png)
+![](/assets/image/QuickStart/003.webp)
 
 ### 进入令牌管理
 1) 登录控制台主页  
 2) 左侧选择“令牌管理”，点击“添加令牌按钮”
 3) 进入令牌管理页面
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/004.png)
+![](/assets/image/QuickStart/004.webp)
 
 ### 创建新令牌
 

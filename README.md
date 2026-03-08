@@ -138,7 +138,7 @@ packy-docs/
 │  │  ├─ navbar.ts        # 导航栏配置
 │  │  ├─ sidebar.ts       # 侧边栏配置
 │  │  ├─ components/      # 自定义组件
-│  │  ├─ public/          # 静态资源（如 /logo.png）
+│  │  ├─ public/          # 静态资源（如 /logo.webp）
 │  │  ├─ styles/          # 自定义样式
 │  │  ├─ .cache/          # VuePress 缓存目录（自动生成）
 │  │  ├─ .temp/           # VuePress 临时目录（自动生成）

@@ -18,7 +18,7 @@ npm list -g --depth-0
 
 正常情况应该是如下图所示（没有任何内容也没关系），如果提示“命令未找到”，则说明你没有安装Nodejs，你需要按 [此教程](https://www.runoob.com/nodejs/nodejs-install-setup.html) 来安装运行Claude Code、Codex、Gemini所需的环境
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/001.png)
+![](/assets/image/Cli/001.webp)
 
 2. 如果你发现自己没有安装Nodejs，并且跟着教程目前已经安装完毕，请你重新执行上述提到的命令，如果不再提示“命令未找到”，则说明安装成功
 
@@ -33,7 +33,7 @@ npm i -g @google/gemini-cli@latest
 
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/002.png)
+![](/assets/image/Cli/002.webp)
 
 ### （3）测试安装成功
 > [!important]
@@ -50,7 +50,7 @@ npm i -g @google/gemini-cli@latest
 claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/003.png)
+![](/assets/image/Cli/003.webp)
 
 > [!important]
 > **第二步十分重要，请你务必跳转链接后运行命令进行配置**
@@ -65,7 +65,7 @@ claude
 codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/004.png)
+![](/assets/image/Cli/004.webp)
 
 @tab Gemini
 
@@ -75,7 +75,7 @@ codex
 gemini
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/005.png)
+![](/assets/image/Cli/005.webp)
 
 :::
 
@@ -91,13 +91,13 @@ gemini
 %userprofile%\.claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/013.png)
+![](/assets/image/Cli/013.webp)
 
 2. 目录内容如图所示，如果目录中没有 `settings.json`，你需要手动创建后打开
 
 - **settings.json**：Claude主要的配置文件，主要用来配置中转站地址以及ApiKey，以及一些hooks，plugins等
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/014.png)
+![](/assets/image/Cli/014.webp)
 
 3. 将以下内容写入 `settings.json`
 
@@ -111,15 +111,15 @@ gemini
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/015.png)
+![](/assets/image/Cli/015.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **CC** 分组的令牌，替换上方 `xxx`部分
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/025.png)
+![](/assets/image/Cli/025.webp)
 
 5. 在windows终端运行 `claude`，出现对话界面后进行对话测试，能收到回复即表示配置成功
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/016.png)
+![](/assets/image/Cli/016.webp)
 
 @tab MacOS
 
@@ -129,13 +129,13 @@ gemini
 ~/.claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/017.png)
+![](/assets/image/Cli/017.webp)
 
 2. 若目录不存在 `settings.json`，需要你手动进行创建
 
 - **settings.json**：Claude主要的配置文件，主要用来配置中转站地址以及ApiKey，以及一些hooks，plugins等
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/018.png)
+![](/assets/image/Cli/018.webp)
 
 3. 将以下内容写入 `settings.json`
 
@@ -149,15 +149,15 @@ gemini
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/015.png)
+![](/assets/image/Cli/015.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **CC** 分组的令牌，替换上方 `xxx`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/025.png)
+![](/assets/image/Cli/025.webp)
 
 5. 在终端运行 `claude`，看到对话界面并能正常回复即表示配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/016.png)
+![](/assets/image/Cli/016.webp)
 
 :::
 
@@ -178,11 +178,11 @@ gemini
 %userprofile%\.codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/006.png)
+![](/assets/image/Cli/006.webp)
 
 2. 你的目录中可能会存在以下文件，不过我们用到的文件只有三个，需要配置的只有两个
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/007.png)
+![](/assets/image/Cli/007.webp)
 
   - **config.toml**：Codex的**核心配置**文件，中转服务与MCP等都在此文件配置
 
@@ -223,7 +223,7 @@ wire_api = "responses"
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/008.png)
+![](/assets/image/Cli/008.webp)
 
 回顾 [创建API令牌](/docs/register/4-token.html) 这一步教程，我们需要在PackyApi中创建 **Codex** 分组的令牌，然后点击右侧的复制按钮，将key填入“xxx”部分后保存
 
@@ -231,7 +231,7 @@ wire_api = "responses"
 > 如果你是Codex包月用户,你需要从 [包月Codex控制台](https://codex.packycode.com/api-management)获取你的**API Key**
 另外在`config.toml`中“**base_url**”一项，需要将链接更换为`https://codex-api.packycode.com/v1`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/009.png)
+![](/assets/image/Cli/009.webp)
 
 5. 测试对话
 
@@ -241,7 +241,7 @@ wire_api = "responses"
 codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/010.png)
+![](/assets/image/Cli/010.webp)
 
 @tab MacOS
 
@@ -251,11 +251,11 @@ codex
 ~/.codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/011.png)
+![](/assets/image/Cli/011.webp)
 
 2. 你的目录中可能会存在以下文件，不过我们用到的文件只有三个，需要配置的只有两个，其它文件可忽略
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/012.png)
+![](/assets/image/Cli/012.webp)
 
   - **config.toml**：Codex 的核心配置文件，中转服务与 MCP 等都在此文件配置
 
@@ -296,7 +296,7 @@ requires_openai_auth = true
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/008.png)
+![](/assets/image/Cli/008.webp)
 
 回顾 [创建API令牌](/docs/register/4-token.html) 这一步教程，我们需要在PackyApi中创建 **Codex** 分组的令牌，然后点击右侧的复制按钮，将key填入“xxx”部分后保存
 
@@ -304,7 +304,7 @@ requires_openai_auth = true
 > 如果你是Codex包月用户,你需要从 [包月Codex控制台](https://codex.packycode.com/api-management)获取你的**API Key**
 另外在`config.toml`中“**base_url**”一项，需要将链接更换为`https://codex-api.packycode.com/v1`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/009.png)
+![](/assets/image/Cli/009.webp)
 
 5. 测试对话
 
@@ -314,7 +314,7 @@ requires_openai_auth = true
 codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/010.png)
+![](/assets/image/Cli/010.webp)
 
 :::
 
@@ -330,13 +330,13 @@ codex
 %userprofile%\.gemini
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/019.png)
+![](/assets/image/Cli/019.webp)
 
 2. 如果目录下没有 `.env` 文件，请新建一个 `.env`，写入以下内容
 
 - **.env**：Gemini CLI的配置文件，主要设置自定义端点、ApiKey跟所用模型
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/020.png)
+![](/assets/image/Cli/020.webp)
 
 ```bash
 GOOGLE_GEMINI_BASE_URL=https://www.packyapi.com
@@ -344,15 +344,15 @@ GEMINI_API_KEY=xxx
 GEMINI_MODEL=gemini-2.5-pro
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/021.png)
+![](/assets/image/Cli/021.webp)
 
 3. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **Gemini** 分组令牌，并复制ApiKey后填入 `xxx`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/026.png)
+![](/assets/image/Cli/026.webp)
 
 4. 打开终端执行 `gemini`，看到交互界面并能正常回复即表示配置成功
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/022.png)
+![](/assets/image/Cli/022.webp)
 
 @tab MacOS
 
@@ -362,13 +362,13 @@ GEMINI_MODEL=gemini-2.5-pro
 ~/.gemini
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/023.png)
+![](/assets/image/Cli/023.webp)
 
 2. 若目录中没有 `.env` 文件，创建并写入以下内容
 
 - **.env**：Gemini CLI的配置文件，主要设置自定义端点、ApiKey跟所用模型
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/024.png)
+![](/assets/image/Cli/024.webp)
 
 ```bash
 GOOGLE_GEMINI_BASE_URL=https://www.packyapi.com
@@ -378,10 +378,10 @@ GEMINI_MODEL=gemini-2.5-pro
 
 3. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **Gemini** 分组令牌，填入 `xxx`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/026.png)
+![](/assets/image/Cli/026.webp)
 
 4. 在终端运行 `gemini`，可正常进入对话并收到回复即表示配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/022.png)
+![](/assets/image/Cli/022.webp)
 
 :::

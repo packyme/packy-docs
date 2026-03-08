@@ -159,7 +159,6 @@ export default sidebar({
             text: "常见问题",
             icon: "mingcute:question-fill",
             prefix: "faq/",
-            link: "faq/",
             collapsible: false,
             children: [
                 {

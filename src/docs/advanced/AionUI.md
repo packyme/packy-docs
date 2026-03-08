@@ -7,7 +7,7 @@ icon: ri:ai-generate-2
 
 <div align="center">
 
-<img src="https://cdn.xf233.io/project/Packy-docs/Advanced/AionUI/aionui-banner-1%20copy.png" alt="AionUi - Cowork with Your CLI AI Agent" style="width: 100%;" />
+<img src="/assets/image/Advanced/AionUI/aionui-banner-1%20copy.webp" alt="AionUi - Cowork with Your CLI AI Agent" style="width: 100%;" />
 
 <h3>Cowork with Your CLI AI Agent</h3>
 
@@ -40,7 +40,7 @@ icon: ri:ai-generate-2
 
 <div align="center">
 
-<img src="https://cdn.xf233.io/project/Packy-docs/Advanced/AionUI/webui%20banner.png" alt="AionUi支持多端同步" width="800">
+<img src="/assets/image/Advanced/AionUI/webui%20banner.webp" alt="AionUi支持多端同步" width="800">
 <em>AionUi WebUI 的案例</em>
 
 </div>
@@ -105,25 +105,25 @@ sudo dpkg -i AionUi-x.x.x-linux-amd64.deb
 1. 打开 AionUi，点击设置 → LLM 配置 → 添加模型
 
 <p align="center">
-  <img src="https://cdn.xf233.io/project/Packy-docs/Advanced/AionUI/Setting_LLM.png" alt="AionUi LLM 配置界面" width="800">
+  <img src="/assets/image/Advanced/AionUI/Setting_LLM.webp" alt="AionUi LLM 配置界面" width="800">
 </p>
 
 2. 选择平台 "自定义"
 
 <p align="center">
-  <img src="https://cdn.xf233.io/project/Packy-docs/Advanced/AionUI/customizellm1.png" alt="AionUi 选择自定义平台" width="800">
+  <img src="/assets/image/Advanced/AionUI/customizellm1.webp" alt="AionUi 选择自定义平台" width="800">
 </p>
 
 3. 根据下方各模型配置，填入对应的 API Key 和配置信息、选择模型
 
 <p align="center">
-  <img src="https://cdn.xf233.io/project/Packy-docs/Advanced/AionUI/inputinfo2.png" alt="AionUi 填入配置信息" width="800">
+  <img src="/assets/image/Advanced/AionUI/inputinfo2.webp" alt="AionUi 填入配置信息" width="800">
 </p>
 
 4. 保存后返回主界面，选择配置的模型开始使用
 
 <p align="center">
-  <img src="https://cdn.xf233.io/project/Packy-docs/Advanced/AionUI/newchat.png" alt="AionUi 选择模型开始使用" width="800">
+  <img src="/assets/image/Advanced/AionUI/newchat.webp" alt="AionUi 选择模型开始使用" width="800">
 </p>
 
 ---

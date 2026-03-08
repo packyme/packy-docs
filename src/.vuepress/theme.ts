@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://www.packyapi.com",
   },
 
-  logo: "/logo.png",
+  logo: "/logo.webp",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "Packy API | Copyright © 2025 Packy Team",
+  footer: "Packy API | Copyright © 2026 Packy Team",
   displayFooter: true,
 
   // 加密配置

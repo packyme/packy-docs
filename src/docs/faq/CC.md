@@ -17,13 +17,13 @@ order: 1
 %userprofile%\.claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/013.png)
+![](/assets/image/Cli/013.webp)
 
 3. 目录内容如图所示，如果目录中没有 `config.json`，你需要手动创建后打开
 
 - **config.json**：配置Vscode的Claude Code插件的一些行为
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/014.png)
+![](/assets/image/Cli/014.webp)
 
 4. 在`config.json`中写入以下内容后保存
 
@@ -45,13 +45,13 @@ order: 1
 ~/.claude
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/017.png)
+![](/assets/image/Cli/017.webp)
 
 3. 目录内容如图所示，如果目录中没有 `config.json`，你需要手动创建后打开
 
 - **config.json**：配置Vscode的Claude Code插件的一些行为
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/018.png)
+![](/assets/image/Cli/018.webp)
 
 4. 在`config.json`中写入以下内容后保存
 
@@ -103,11 +103,11 @@ lease check your internet connection and network settings.
 Note: Claude Code might not be available in your country, Check supported countries atnttps://anthropic.com/supported-countriesS E:ltoollclaude code>
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/CC/001.jpg)
+![](/assets/image/FAQ/CC/001.webp)
 
 或是在你初次配置时出现以下问题：
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/CC/003.png)
+![](/assets/image/FAQ/CC/003.webp)
 
 ::: tabs
 
@@ -126,7 +126,7 @@ powershell -Command "$f='%USERPROFILE%\.claude.json';$j=Get-Content $f|ConvertFr
 @tab MacOS
 
 1. 在APP列表中找到终端程序，点击运行
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/CC/002.png)
+![](/assets/image/FAQ/CC/002.webp)
 
 2. 在终端中运行以下命令后回车
 

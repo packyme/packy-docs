@@ -45,11 +45,11 @@ CC-Switch 已经内置了 PackyAPI 的快捷配置模板，无需手动编辑配
 
 2. 鼠标滚动到最下方选择适合自己版本的安装包，windows系统推荐下载普通msi后缀的安装包进行安装
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/001.png)
+![](/assets/image/CC-Switch/001.webp)
 
 3. 安装后运行CC-Switch主程序，界面如下。
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/002.png)
+![](/assets/image/CC-Switch/002.webp)
 
 @tab MacOS
 - MacOS安装推荐使用HomeBrew
@@ -65,7 +65,7 @@ brew install --cask cc-switch
 
 - 安装完成后，在“启动台”或“应用程序”文件夹中找到 CC-Switch 并启动。
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/002.png)
+![](/assets/image/CC-Switch/002.webp)
 
 @tab Linux
 > [!important]

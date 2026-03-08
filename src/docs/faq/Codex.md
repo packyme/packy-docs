@@ -34,7 +34,7 @@ order: 2
 ::: tabs
 @tab Serena
 1. 确保你的电脑已经安装了Python，在终端中输入`python`会有交互产生
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/006.png)
+![](/assets/image/FAQ/Codex/006.webp)
 
 2. 在终端输入以下命令来安装`uv`管理器
 ```bash
@@ -43,7 +43,7 @@ pip install uv
 
 3. 安装完成之后，会弹出`uv`的命令提示
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/007.png)
+![](/assets/image/FAQ/Codex/007.webp)
 
 4. 在终端中运行`git`命令，如果提示“命令未找到”，则需要你去安装，待安装好后进入下一步
 
@@ -72,7 +72,7 @@ uv run serena start-mcp-server --context codex --transport streamable-http --por
 ```bash
 npx @wonderwhy-er/desktop-commander@latest setup
 ```
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/008.png)
+![](/assets/image/FAQ/Codex/008.webp)
 
 2. 如果报错了，请你下载 [rg.exe](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/rg.exe) 到本地
 
@@ -93,7 +93,7 @@ npx @wonderwhy-er/desktop-commander@latest setup
 
 7. 此时，你应该已经安装成功
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/008.png)
+![](/assets/image/FAQ/Codex/008.webp)
 
 :::
 
@@ -181,15 +181,15 @@ url = "http://127.0.0.1:9121/mcp"
 intl.cpl
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/command.png)
+![](/assets/image/FAQ/command.webp)
 
 2. 点击上侧选项卡“管理”，再点击红色箭头所示的“更改系统区域设置”按钮
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/001.png)
+![](/assets/image/FAQ/Codex/001.webp)
 
 3. 勾选红色箭头所指选项，点击确定。然后在刚才的窗口也点击确定，之后重启一下你的电脑再使用codex，即可避免乱码
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/002.png)
+![](/assets/image/FAQ/Codex/002.webp)
 
 ### Vscode Codex插件中设置最新模型
 
@@ -203,7 +203,7 @@ intl.cpl
 %userprofile%\.vscode\extensions
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/command.png)
+![](/assets/image/FAQ/command.webp)
 
 @tab MacOS
 
@@ -213,17 +213,17 @@ intl.cpl
 ~/.vscode/extensions
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/009.png)
+![](/assets/image/FAQ/Codex/009.webp)
 
 :::
 
 2. 找到以`openai.chatgpt`开头的文件夹，后面的数字是版本号，如果存在多个这种开头的目录，选择版本号最新的目录进入
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/003.png)
+![](/assets/image/FAQ/Codex/003.webp)
 
 3. 依次进入`webview\assets`文件夹，你会看到一大堆js文件
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/004.png)
+![](/assets/image/FAQ/Codex/004.webp)
 
 4. 下载**替换脚本**后解压，将这个js文件复制到刚才有一大堆js文件的目录
 
@@ -284,7 +284,7 @@ web_search_request = true
 
 3. 运行Codex，进行尝试
 
-![](https://cdn.xf233.io/project/Packy-docs/FAQ/Codex/010.png)
+![](/assets/image/FAQ/Codex/010.webp)
 
 ### Codex 在容器或CLI沙盒中的网络连接问题
 

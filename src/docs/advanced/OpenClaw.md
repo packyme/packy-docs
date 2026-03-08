@@ -14,45 +14,45 @@ icon: noto:lobster
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/01.png)
+![](/assets/image/Advanced/OpenClaw/01.webp)
 
 2. 之后我们选择 `QuickStart` 回车确认
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/02.png)
+![](/assets/image/Advanced/OpenClaw/02.webp)
 
 3. 在选择供应商部分我们先选择 `Skip for now` 回车确认，跳过设置
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/03.png)
+![](/assets/image/Advanced/OpenClaw/03.webp)
 
 4. 在适配器选择部分，选择 `anthropic`
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/04.png)
+![](/assets/image/Advanced/OpenClaw/04.webp)
 
 5. 在模型选择部分，我们选择 `opus-4.5`
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/05.png)
+![](/assets/image/Advanced/OpenClaw/05.webp)
 
 6. 这里选择社交软件适配器，看个人需要，我们测试选择 `Telegram`
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/06.png)
+![](/assets/image/Advanced/OpenClaw/06.webp)
 
 7. 输入Bot Token，然后回车
 
 8. 这里选择安装Skill，这个先跳过，后续可以通过网页进行安装
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/07.png)
+![](/assets/image/Advanced/OpenClaw/07.webp)
 
 9. 这里选择Hook，使用空格键全选，然后回车确认，之后过程会有GateWay安装，请耐心等待
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/08.png)
+![](/assets/image/Advanced/OpenClaw/08.webp)
 
 10. 打开方式这里，这里我们先选择跳过
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/09.png)
+![](/assets/image/Advanced/OpenClaw/09.webp)
 
 11. 安装Shell补全脚本，这里选择 `yes` 回车确认，至此我们完成安装
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/10.png)
+![](/assets/image/Advanced/OpenClaw/10.webp)
 
 
 ## 渠道与模型配置
@@ -71,11 +71,11 @@ curl -fsSL https://github.com/packyme/openclaw-configurator/releases/latest/down
 
 2. 选择 `添加供应商`，然后选择 `PackyCode`
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/11.png)
+![](/assets/image/Advanced/OpenClaw/11.webp)
 
 3. 这里以Opus为例，在获取的模型中选择 `Claude Opus 4.5`
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/12.png)
+![](/assets/image/Advanced/OpenClaw/12.webp)
 
 4. 输入 [创建API令牌](/docs/register/4-token.html) 一节中你创建的相关分组的令牌，复制后填入
 
@@ -90,11 +90,11 @@ curl -fsSL https://github.com/packyme/openclaw-configurator/releases/latest/down
 **请您创建正确分组的APIKEY后填入**
 :::
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/13.png)
+![](/assets/image/Advanced/OpenClaw/13.webp)
 
 5. 选择 `选择模型`，然后选中我们刚才配置的模型，回车确认
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/14.png)
+![](/assets/image/Advanced/OpenClaw/14.webp)
 
 6. 选择 `退出`，回到我们的控制台
 
@@ -104,7 +104,7 @@ curl -fsSL https://github.com/packyme/openclaw-configurator/releases/latest/down
 openclaw gateway restart
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/15.png)
+![](/assets/image/Advanced/OpenClaw/15.webp)
 
 8. 重启成功后，控制台输入以下命令，进入TUI界面，测试模型是否能正常输出。测试正常则输入 `/quit` 退出TUI界面
 
@@ -112,7 +112,7 @@ openclaw gateway restart
 openclaw tui
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/16.png)
+![](/assets/image/Advanced/OpenClaw/16.webp)
 
 ## 浏览器访问
 
@@ -127,7 +127,7 @@ openclaw tui
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/17.png)
+![](/assets/image/Advanced/OpenClaw/17.webp)
 
 修改完毕后回到控制台输入以下命令重启网关
 ```bash
@@ -138,7 +138,7 @@ openclaw gateway restart
 
 2. 访问带有Token的 `Dashboard URL` 链接，进入后台界面
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/18.png)
+![](/assets/image/Advanced/OpenClaw/18.webp)
 
 ## 配置Telegram Bot访问权限
 
@@ -146,7 +146,7 @@ openclaw gateway restart
 
 2. 首次对话拿到我们所需的 `Pairing code`
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/19.png)
+![](/assets/image/Advanced/OpenClaw/19.webp)
 
 3. 在控制台输入以下命令允许您跟Bot进行互动
 
@@ -154,4 +154,4 @@ openclaw gateway restart
 openclaw pairing approve telegram 你的Pairing code
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Advanced/OpenClaw/20.png)
+![](/assets/image/Advanced/OpenClaw/20.webp)

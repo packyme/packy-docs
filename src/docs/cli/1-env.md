@@ -13,7 +13,7 @@ npm list -g --depth-0
 
 正常情况应该是如下图所示（没有任何内容也没关系），如果提示“命令未找到”，则说明你没有安装Nodejs，你需要按 [此教程](https://www.runoob.com/nodejs/nodejs-install-setup.html) 来安装运行Claude Code、Codex、Gemini所需的环境
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/001.png)
+![](/assets/image/Cli/001.webp)
 
 2. 如果你发现自己没有安装Nodejs，并且跟着教程目前已经安装完毕，请你重新执行上述提到的命令，如果不再提示“命令未找到”，则说明安装成功
 
@@ -28,7 +28,7 @@ npm i -g @google/gemini-cli@latest
 
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/002.png)
+![](/assets/image/Cli/002.webp)
 
 ### （3）测试安装成功
 > [!important]
@@ -46,7 +46,7 @@ claude
 ```
 
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/003.png)
+![](/assets/image/Cli/003.webp)
 
 > [!important]
 > **第二步十分重要，请你务必跳转链接后运行命令进行配置**
@@ -63,7 +63,7 @@ claude
 codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/004.png)
+![](/assets/image/Cli/004.webp)
 
 @tab Gemini
 
@@ -73,6 +73,6 @@ codex
 gemini
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/005.png)
+![](/assets/image/Cli/005.webp)
 
 :::

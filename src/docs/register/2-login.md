@@ -6,7 +6,7 @@ order: 2
 
 登录入口：<https://www.packyapi.com/login>
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/002.png)
+![](/assets/image/QuickStart/002.webp)
 
 ## 使用 Google 账号登录
 1. 点击 “使用 Google 继续”

@@ -50,11 +50,11 @@ CC-Switch 已经内置了 PackyAPI 的快捷配置模板，无需手动编辑配
 
 2. 鼠标滚动到最下方选择适合自己版本的安装包，windows系统推荐下载普通msi后缀的安装包进行安装
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/001.png)
+![](/assets/image/CC-Switch/001.webp)
 
 3. 安装后运行CC-Switch主程序，界面如下。
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/002.png)
+![](/assets/image/CC-Switch/002.webp)
 
 @tab MacOS
 - MacOS安装推荐使用HomeBrew
@@ -70,7 +70,7 @@ brew install --cask cc-switch
 
 - 安装完成后，在“启动台”或“应用程序”文件夹中找到 CC-Switch 并启动。
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/002.png)
+![](/assets/image/CC-Switch/002.webp)
 
 @tab Linux
 > [!important]
@@ -102,54 +102,54 @@ sudo dpkg -i cc-switch_x.x.x_amd64.deb
 
 1. 打开你下载的CC Switch软件，你会看到如下图的初始界面
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/003.png)
+![](/assets/image/CC-Switch/003.webp)
 
 2. 在分组条中，将分组选择至“Claude”
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/004.png)
+![](/assets/image/CC-Switch/004.webp)
 
 3. 在供应商分组中，选择如图的“PakcyCode”
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/005.png)
+![](/assets/image/CC-Switch/005.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **CC** 分组的令牌，点击复制按钮，复制ApiKey到剪切板
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/025.png)
+![](/assets/image/Cli/025.webp)
 
 5. 下拉模态框，找到“API Key”配置项，填入你刚才复制的ApiKey，再点击右下角“添加”按钮
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/006.png)
+![](/assets/image/CC-Switch/006.webp)
 
 6. 添加成功后，在主界面会看到我们配置的分组，在右侧点击“启用”按钮，显示“使用中”，则配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/007.png)
+![](/assets/image/CC-Switch/007.webp)
 
 7. 点击左上角“设置”按钮，在通用页面下拉找到 `跳过 Claude Code初次安装确认` ，务必勾选
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/017.png)
+![](/assets/image/CC-Switch/017.webp)
 
 8. 在终端运行 `claude`，看到对话界面并能正常回复即表示配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/016.png)
+![](/assets/image/Cli/016.webp)
 
 
 ## ::hugeicons:chat-gpt:: Codex配置
 
 1. 打开你下载的CC Switch软件，你会看到如下图的初始界面
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/003.png)
+![](/assets/image/CC-Switch/003.webp)
 
 2. 在分组条中，将分组选择至“Codex”
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/008.png)
+![](/assets/image/CC-Switch/008.webp)
 
 3. 在供应商分组中，选择如图的“PakcyCode”
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/009.png)
+![](/assets/image/CC-Switch/009.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **Codex** 分组的令牌，点击复制按钮，复制ApiKey到剪切板
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/008.png)
+![](/assets/image/Cli/008.webp)
 
 5. 下拉模态框，找到“API Key”配置项，填入你刚才复制的ApiKey，再点击右下角“添加”按钮
 
@@ -158,45 +158,45 @@ sudo dpkg -i cc-switch_x.x.x_amd64.deb
 另外下图中“**API 请求地址**”一项，需要将链接更换为`https://codex-api.packycode.com/v1`
 :::
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/010.png)
+![](/assets/image/CC-Switch/010.webp)
 
 6. 添加成功后，在主界面会看到我们配置的分组，在右侧点击“启用”按钮，显示“使用中”，则配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/011.png)
+![](/assets/image/CC-Switch/011.webp)
 
 7. 在终端运行 `codex`，看到对话界面并能正常回复即表示配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/010.png)
+![](/assets/image/Cli/010.webp)
 
 ## ::vscode-icons:file-type-gemini:: Gemini配置
 
 1. 打开你下载的CC Switch软件，你会看到如下图的初始界面
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/003.png)
+![](/assets/image/CC-Switch/003.webp)
 
 2. 在分组条中，将分组选择至“Gemini”
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/012.png)
+![](/assets/image/CC-Switch/012.webp)
 
 3. 在供应商分组中，选择如图的“PakcyCode”
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/013.png)
+![](/assets/image/CC-Switch/013.webp)
 
 4. 回顾 [创建API令牌](/docs/register/4-token.html)，在 PackyApi 中创建 **Gemini** 分组的令牌，点击复制按钮，复制ApiKey到剪切板
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/026.png)
+![](/assets/image/Cli/026.webp)
 
 5. 下拉模态框，找到“API Key”配置项，填入你刚才复制的ApiKey，再点击右下角“添加”按钮
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/014.png)
+![](/assets/image/CC-Switch/014.webp)
 
 6. 添加成功后，在主界面会看到我们配置的分组，在右侧点击“启用”按钮，显示“使用中”，则配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/015.png)
+![](/assets/image/CC-Switch/015.webp)
 
 7. 在终端运行 `gemini`，看到对话界面并能正常回复即表示配置完成
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/022.png)
+![](/assets/image/Cli/022.webp)
 
 ## CC Switch CLI 使用
 
@@ -219,7 +219,7 @@ sudo dpkg -i cc-switch_x.x.x_amd64.deb
 
 </div>
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/018.png)
+![](/assets/image/CC-Switch/018.webp)
 
 ---
 
@@ -425,16 +425,16 @@ cc-switch
 
 2. 下拉在左侧选择 `Providers` ，回车选中，并按下 `a` 键，进入供应商添加页面
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/019.png)
+![](/assets/image/CC-Switch/019.webp)
 
 3. 在上方模板中选择 `PackyCode`
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/020.png)
+![](/assets/image/CC-Switch/020.webp)
 
 4. 在 `Api Key` 处填写你的Apikey回车，并按下 `Ctrl+S` 进行保存
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/021.png)
+![](/assets/image/CC-Switch/021.webp)
 
 5. 确保此时选中的是刚才配置的Provider，然后在左侧菜单中退出 CC Switch CLI
 
-![](https://cdn.xf233.io/project/Packy-docs/CC-Switch/022.png)
+![](/assets/image/CC-Switch/022.webp)

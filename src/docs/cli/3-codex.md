@@ -14,11 +14,11 @@ order: 3
 %userprofile%\.codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/006.png)
+![](/assets/image/Cli/006.webp)
 
 2. 你的目录中可能会存在以下文件，不过我们用到的文件只有三个，需要配置的只有两个
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/007.png)
+![](/assets/image/Cli/007.webp)
 
   - **config.toml**：Codex的**核心配置**文件，中转服务与MCP等都在此文件配置
 
@@ -59,7 +59,7 @@ wire_api = "responses"
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/008.png)
+![](/assets/image/Cli/008.webp)
 
 回顾 [创建API令牌](/docs/register/4-token.html) 这一步教程，我们需要在PackyApi中创建 **Codex** 分组的令牌，然后点击右侧的复制按钮，将key填入“xxx”部分后保存
 
@@ -67,7 +67,7 @@ wire_api = "responses"
 > 如果你是Codex包月用户,你需要从 [包月Codex控制台](https://codex.packycode.com/api-management)获取你的**API Key**
 另外在`config.toml`中“**base_url**”一项，需要将链接更换为`https://codex-api.packycode.com/v1`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/009.png)
+![](/assets/image/Cli/009.webp)
 
 5. 测试对话
 
@@ -77,7 +77,7 @@ wire_api = "responses"
 codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/010.png)
+![](/assets/image/Cli/010.webp)
 
 @tab MacOS
 
@@ -87,11 +87,11 @@ codex
 ~/.codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/011.png)
+![](/assets/image/Cli/011.webp)
 
 2. 你的目录中可能会存在以下文件，不过我们用到的文件只有三个，需要配置的只有两个，其它文件可忽略
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/012.png)
+![](/assets/image/Cli/012.webp)
 
   - **config.toml**：Codex 的核心配置文件，中转服务与 MCP 等都在此文件配置
 
@@ -132,7 +132,7 @@ requires_openai_auth = true
 }
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/008.png)
+![](/assets/image/Cli/008.webp)
 
 回顾 [创建API令牌](/docs/register/4-token.html) 这一步教程，我们需要在PackyApi中创建 **Codex** 分组的令牌，然后点击右侧的复制按钮，将key填入“xxx”部分后保存
 
@@ -140,7 +140,7 @@ requires_openai_auth = true
 > 如果你是Codex包月用户,你需要从 [包月Codex控制台](https://codex.packycode.com/api-management)获取你的**API Key**
 另外在`config.toml`中“**base_url**”一项，需要将链接更换为`https://codex-api.packycode.com/v1`
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/009.png)
+![](/assets/image/Cli/009.webp)
 
 5. 测试对话
 
@@ -150,6 +150,6 @@ requires_openai_auth = true
 codex
 ```
 
-![](https://cdn.xf233.io/project/Packy-docs/Cli/010.png)
+![](/assets/image/Cli/010.webp)
 
 :::

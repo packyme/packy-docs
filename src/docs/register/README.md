@@ -439,7 +439,7 @@ onMounted(() => {
 
 - 注册入口：<https://www.packyapi.com/register>
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/001.png)
+![](/assets/image/QuickStart/001.webp)
 
 - **方式一（推荐）Google 账号：**
   1) 点击 “使用 Google 继续”
@@ -459,7 +459,7 @@ onMounted(() => {
 
 - 登录入口：<https://www.packyapi.com/login>
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/002.png)
+![](/assets/image/QuickStart/002.webp)
 
 - **使用 Google 登录：**
     - 点击 “使用 Google 继续” → 选择注册用的 Google 账号 → 授权即登录。
@@ -473,7 +473,7 @@ onMounted(() => {
 
 
 ## 第三步：购买额度
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/005.png)
+![](/assets/image/QuickStart/005.webp)
 
 - 登录控制台后，在“钱包管理”页面在线充值。
 - 目前充值比例为“1:1”，即**一元人民币 同等于 一美元**
@@ -482,14 +482,14 @@ onMounted(() => {
 
 登录后进入控制台面板
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/003.png)
+![](/assets/image/QuickStart/003.webp)
 
 ### 进入令牌管理
 1) 登录控制台主页  
 2) 左侧选择“令牌管理”，点击“添加令牌按钮”
 3) 进入令牌管理页面
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/004.png)
+![](/assets/image/QuickStart/004.webp)
 
 ### 创建新令牌
 

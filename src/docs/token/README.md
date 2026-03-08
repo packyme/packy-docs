@@ -25,9 +25,9 @@ date: 2025-11-23
 **为了杜绝这种情况发生，我们直接教你怎么去查看每个分组的详细信息。**
 :::
 
-![](https://cdn.xf233.io/project/Packy-docs/Model/001.png)
+![](/assets/image/Model/001.webp)
 
-![](https://cdn.xf233.io/project/Packy-docs/Model/002.png)
+![](/assets/image/Model/002.webp)
 
 ## 令牌分组介绍
 

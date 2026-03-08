@@ -6,7 +6,7 @@ order: 1
 
 注册入口：<https://www.packyapi.com/register>
 
-![](https://cdn.xf233.io/project/Packy-docs/QuickStart/001.png)
+![](/assets/image/QuickStart/001.webp)
 
 ## 方式一（推荐）：使用 Google 账号
 1. 点击 “使用 Google 继续”
