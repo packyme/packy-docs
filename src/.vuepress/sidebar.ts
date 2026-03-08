@@ -51,7 +51,7 @@ export default sidebar({
                 {
                     text: "令牌分组介绍",
                     icon: "ic:baseline-generating-tokens",
-                    link: "2-token.md",
+                    link: "2-group.md",
                 },
             ],
         },
