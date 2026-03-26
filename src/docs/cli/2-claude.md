@@ -29,7 +29,9 @@ order: 2
   "env": {
     "ANTHROPIC_BASE_URL": "https://www.packyapi.com",
     "ANTHROPIC_AUTH_TOKEN": "xxx",
-    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
   }
 }
 ```
@@ -67,7 +69,9 @@ order: 2
   "env": {
     "ANTHROPIC_BASE_URL": "https://www.packyapi.com",
     "ANTHROPIC_AUTH_TOKEN": "xxx",
-    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
   }
 }
 ```

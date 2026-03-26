@@ -139,3 +139,56 @@ jq '. + {"hasCompletedOnboarding": true}' ~/.claude.json > /tmp/tmp.json && mv /
 
 3. 重启你的Claude Cli
 :::
+
+### Claude Code 如何切换回 200K 上下文并禁用非必要流量
+
+如果你希望将 Claude Code 从 1M 上下文切换回 200K 上下文，并关闭一些
+非必要请求与终端标题变更，可以在 `settings.json` 的 `env` 中加入以下配置。
+
+::: tabs
+
+@tab Windows
+
+1. 按下键盘 `Win + R`，输入以下内容后回车
+
+```bash
+%userprofile%\.claude
+```
+
+2. 打开或创建 `settings.json`
+
+3. 确认 `env` 中包含以下内容
+
+```json
+{
+  "env": {
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
+  }
+}
+```
+
+@tab MacOS
+
+1. 在访达中按下 `Command + Shift + G`，输入以下路径后回车
+
+```bash
+~/.claude
+```
+
+2. 打开或创建 `settings.json`
+
+3. 确认 `env` 中包含以下内容
+
+```json
+{
+  "env": {
+    "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
+  }
+}
+```
+
+:::
