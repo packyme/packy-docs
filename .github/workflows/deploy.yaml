@@ -17,8 +17,11 @@ jobs:
         with:
           node-version: "22"
 
+      - name: Enable Corepack
+        run: corepack enable
+
       - name: Install deps
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: Build docs
         run: yarn docs:build
