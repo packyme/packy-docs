@@ -16,13 +16,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "npm"
+
+      - name: Enable Corepack
+        run: corepack enable
 
       - name: Install deps
-        run: npm install
+        run: yarn install --immutable
 
       - name: Build docs
-        run: npm run docs:build
+        run: yarn docs:build
 
       - name: Verify build output
         run: |
