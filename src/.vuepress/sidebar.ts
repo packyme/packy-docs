@@ -144,6 +144,11 @@ export default sidebar({
             collapsible: false,
             children: [
                 {
+                    text: "Claude Desktop",
+                    icon: "material-icon-theme:claude",
+                    link: "ClaudeDesktop.md",
+                },
+                {
                     text: "AionUi",
                     icon: "akar-icons:paper-airplane",
                     link: "AionUI.md",
