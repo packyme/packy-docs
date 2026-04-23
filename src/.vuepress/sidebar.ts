@@ -130,6 +130,11 @@ export default sidebar({
                     icon: "emojione-monotone:banana",
                     link: "Banana.md",
                 },
+                {
+                    text: "GPT-Image-2",
+                    icon: "material-symbols:image-outline",
+                    link: "GPTImage.md",
+                },
             ],
         },
         {
