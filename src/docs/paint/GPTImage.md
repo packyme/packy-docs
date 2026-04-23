@@ -21,16 +21,46 @@ order: 2
 **请求示例：**
 
 ```bash
-curl 'https://www.packyapi.com/v1/images/generations' \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer 你的sora分组令牌' \
-  -d '{
+curl --location 'https://www.packyapi.com/v1/images/generations' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer 你的Sora分组令牌' \
+--header 'Accept: */*' \
+--header 'Host: www.packyapi.com' \
+--header 'Connection: keep-alive' \
+--data '{
     "model": "gpt-image-2",
-    "prompt": "一只可爱的猫咪在阳光下打盹",
-    "n": 1,
-    "size": "1024x1024"
-  }'
+    "prompt": "一只橘猫戴着橙色围巾抱着水獭，温暖插画风格",
+    "size": "3840x2160",
+    "quality": "high",
+    "output_format": "png",
+    "response_format": "b64_json",
+    "n": 1
+}'
 ```
+
+#### 支持的尺寸与质量选项
+
+- 常用尺寸（Popular sizes）
+  - **1024 × 1024**：正方形
+  - **1536 × 1024**：横向
+  - **1024 × 1536**：纵向
+  - **2048 × 2048**：2K 正方形
+  - **2048 × 1152**：2K 横向
+  - **3840 × 2160**：4K 横向
+  - **2160 × 3840**：4K 纵向
+  - **auto**：自动（默认）
+
+- 尺寸限制（Size constraints）
+  - 最大边长必须 **小于或等于 3840 像素**
+  - 宽和高都必须是 **16 的倍数**
+  - 长边与短边的比例 **不能超过 3:1**
+  - 总像素数必须 **不少于 655,360**，且 **不超过 8,294,400**
+
+- 质量选项（Quality options）
+  - **low**：低质量
+  - **medium**：中等质量
+  - **high**：高质量
+  - **auto**：自动（默认）
 
 **返回示例：**
 

@@ -167,12 +167,41 @@ onBeforeUnmount(() => {
           <div class="logo-glow"></div>
         </div>
         <div class="qq-meta">
-          <p class="qq-label">售后QQ群三</p>
+          <p class="qq-label">售后QQ群三 <span class="qq-full">已满</span></p>
           <p class="qq-number">1083929192</p>
         </div>
         <div class="card-shine"></div>
       </div>
       <div v-if="activeCard === 'qq3'" class="inline-notice">
+        <span class="notice-pill">{{ noticeText }}</span>
+      </div>
+    </div>
+    <div
+      class="qq-card amber-card"
+      role="button"
+      tabindex="0"
+      aria-label="复制售后QQ群四"
+      @click="copyQQ('1093476259', 'qq4')"
+      @keydown.enter.prevent="copyQQ('1093476259', 'qq4')"
+      @keydown.space.prevent="copyQQ('1093476259', 'qq4')"
+    >
+      <div class="card-bg"></div>
+      <div class="card-content">
+        <div class="logo-wrapper">
+          <img
+            class="qq-logo"
+            src="/assets/image/logo/qq.webp"
+            alt="售后QQ群四"
+          />
+          <div class="logo-glow"></div>
+        </div>
+        <div class="qq-meta">
+          <p class="qq-label">售后QQ群四</p>
+          <p class="qq-number">1093476259</p>
+        </div>
+        <div class="card-shine"></div>
+      </div>
+      <div v-if="activeCard === 'qq4'" class="inline-notice">
         <span class="notice-pill">{{ noticeText }}</span>
       </div>
     </div>
@@ -197,9 +226,16 @@ onBeforeUnmount(() => {
 /* QQ Groups Styles */
 .qq-groups {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
   margin: 20px 0 32px;
+}
+
+@media (min-width: 1280px) {
+  .qq-groups {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+  }
 }
 
 .qq-card {
@@ -236,6 +272,11 @@ onBeforeUnmount(() => {
   opacity: 0.8;
 }
 
+.amber-card .card-bg {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  opacity: 0.8;
+}
+
 .qq-card:hover .card-bg {
   opacity: 1;
 }
@@ -264,6 +305,10 @@ onBeforeUnmount(() => {
 
 .green-card::before {
   background: radial-gradient(circle, rgba(34, 197, 94, 0.4), transparent);
+}
+
+.amber-card::before {
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.4), transparent);
 }
 
 .card-content {
@@ -319,6 +364,10 @@ onBeforeUnmount(() => {
   background: #bbf7d0ff;
 }
 
+.amber-card .logo-glow {
+  background: #fde68aff;
+}
+
 .qq-card:hover .logo-glow {
   opacity: 0.9;
   animation: pulse-glow 2s infinite;
@@ -349,6 +398,7 @@ onBeforeUnmount(() => {
 .blue-card .qq-label { color: #0369a1; }
 .purple-card .qq-label { color: #7e22ce; }
 .green-card .qq-label { color: #15803d; }
+.amber-card .qq-label { color: #92400e; }
 
 .qq-number {
   margin: 0;
@@ -371,6 +421,10 @@ onBeforeUnmount(() => {
 
 .green-card .qq-number {
   background-image: linear-gradient(135deg, #16a34a, #4ade80);
+}
+
+.amber-card .qq-number {
+  background-image: linear-gradient(135deg, #d97706, #f59e0b);
 }
 
 .qq-card:hover .qq-label {
@@ -441,6 +495,11 @@ onBeforeUnmount(() => {
               inset 0 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
+.amber-card {
+  box-shadow: 0 10px 30px -10px rgba(251, 191, 36, 0.15),
+              inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
 .blue-card:hover {
   box-shadow: 0 20px 40px -10px rgba(14, 165, 233, 0.3),
               inset 0 0 0 1px rgba(255, 255, 255, 0.8);
@@ -453,6 +512,11 @@ onBeforeUnmount(() => {
 
 .green-card:hover {
   box-shadow: 0 20px 40px -10px rgba(34, 197, 94, 0.3),
+              inset 0 0 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.amber-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(251, 191, 36, 0.3),
               inset 0 0 0 1px rgba(255, 255, 255, 0.8);
 }
 
@@ -469,6 +533,26 @@ onBeforeUnmount(() => {
   vertical-align: middle;
   margin-left: 6px;
   text-transform: none;
+}
+
+@media (min-width: 1280px) {
+  .card-content {
+    gap: 14px;
+    padding: 16px 18px;
+  }
+
+  .logo-wrapper {
+    width: 44px;
+    height: 44px;
+  }
+
+  .qq-label {
+    font-size: 12px;
+  }
+
+  .qq-number {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -608,6 +692,10 @@ html[data-theme="dark"] .green-card .card-bg {
   background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, rgba(22, 163, 74, 0.12) 100%);
 }
 
+html[data-theme="dark"] .amber-card .card-bg {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.08) 0%, rgba(217, 119, 6, 0.12) 100%);
+}
+
 html[data-theme="dark"] .blue-card::before {
   background: radial-gradient(circle, rgba(56, 189, 248, 0.15), transparent);
 }
@@ -620,6 +708,10 @@ html[data-theme="dark"] .green-card::before {
   background: radial-gradient(circle, rgba(34, 197, 94, 0.15), transparent);
 }
 
+html[data-theme="dark"] .amber-card::before {
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.15), transparent);
+}
+
 html[data-theme="dark"] .qq-card {
   border-color: rgba(255, 255, 255, 0.08);
   background: rgba(30, 30, 35, 0.6);
@@ -628,6 +720,7 @@ html[data-theme="dark"] .qq-card {
 html[data-theme="dark"] .blue-card .qq-label { color: #93c5fd; }
 html[data-theme="dark"] .purple-card .qq-label { color: #c4b5fd; }
 html[data-theme="dark"] .green-card .qq-label { color: #86efac; }
+html[data-theme="dark"] .amber-card .qq-label { color: #fcd34d; }
 
 html[data-theme="dark"] .blue-card .qq-number {
   background-image: linear-gradient(135deg, #60a5fa, #93c5fd);
@@ -641,6 +734,10 @@ html[data-theme="dark"] .green-card .qq-number {
   background-image: linear-gradient(135deg, #4ade80, #86efac);
 }
 
+html[data-theme="dark"] .amber-card .qq-number {
+  background-image: linear-gradient(135deg, #fbbf24, #fcd34d);
+}
+
 html[data-theme="dark"] .blue-card .logo-glow {
   background: rgba(96, 165, 250, 0.25);
 }
@@ -651,6 +748,10 @@ html[data-theme="dark"] .purple-card .logo-glow {
 
 html[data-theme="dark"] .green-card .logo-glow {
   background: rgba(74, 222, 128, 0.25);
+}
+
+html[data-theme="dark"] .amber-card .logo-glow {
+  background: rgba(251, 191, 36, 0.25);
 }
 
 html[data-theme="dark"] .card-shine {
@@ -672,6 +773,11 @@ html[data-theme="dark"] .green-card {
               inset 0 0 0 1px rgba(74, 222, 128, 0.15);
 }
 
+html[data-theme="dark"] .amber-card {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5),
+              inset 0 0 0 1px rgba(251, 191, 36, 0.15);
+}
+
 html[data-theme="dark"] .blue-card:hover {
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
               inset 0 0 0 1px rgba(96, 165, 250, 0.3);
@@ -685,6 +791,11 @@ html[data-theme="dark"] .purple-card:hover {
 html[data-theme="dark"] .green-card:hover {
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
               inset 0 0 0 1px rgba(74, 222, 128, 0.3);
+}
+
+html[data-theme="dark"] .amber-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
+              inset 0 0 0 1px rgba(251, 191, 36, 0.3);
 }
 
 html[data-theme="dark"] .qq-full {
