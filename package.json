@@ -3,6 +3,7 @@
   "description": "Documentation for Packy API - The One-stop AI Relay Service",
   "version": "1.0.0",
   "license": "MIT",
+  "packageManager": "yarn@4.14.1",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build src",
