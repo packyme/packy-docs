@@ -134,10 +134,38 @@ curl 'https://www.packyapi.com/v1/chat/completions' \
 
 ## 在 Cherry Studio 中使用
 
-1. 参照 [Banana2 Pro 绘图教程](./Banana.md) 中的步骤 1-6，添加服务商并配置 API 密钥，**注意令牌分组需选择 `sora`**
+1. 参照 [创建令牌分组](/docs/register/4-token.html#%E8%BF%9B%E5%85%A5%E4%BB%A4%E7%89%8C%E7%AE%A1%E7%90%86) 教程，创建 **`sora` 分组** 的令牌，并复制 API Key。
 
-2. 在模型管理中搜索并添加 `gpt-image-2` 模型
+2. 打开 Cherry Studio，进入 `设置` -> `模型服务`，点击底部 `添加`，新增一个提供商。
 
-3. 务必**关闭流式输出**（绘图模型不支持流式返回）
+3. 在弹出的窗口中填写提供商名称，`提供商类型` 选择 `New API`。
 
-4. 选择 `gpt-image-2` 模型，输入提示词即可生成图片
+![](/assets/image/Paint/gpt-image-2/01.webp)
+
+4. 打开刚创建的提供商，填写 API Key 和 API 地址。API 地址请填写 `https://www.packyapi.com`。
+
+![](/assets/image/Paint/gpt-image-2/02.webp)
+
+5. 点击提供商配置页中的 `管理`，搜索并添加 `gpt-image-2` 模型。
+
+6. 如果模型添加后无法正常用于绘图，点击 `编辑模型`，将 `端点类型` 调整为 `图像生成（OpenAI）`，并确认 `模型类型` 已勾选 `视觉`。
+
+![](/assets/image/Paint/gpt-image-2/03.webp)
+
+7. 回到首页，点击顶部 `+` 按钮，新建一个 `绘画` 应用。
+
+![](/assets/image/Paint/gpt-image-2/04.webp)
+
+8. 在绘画页面中选择刚才配置好的提供商和 `gpt-image-2` 模型。文生图请选择 `绘图` 模式；如果要上传参考图做图生图或局部修改，请切换到 `编辑` 模式。
+
+![](/assets/image/Paint/gpt-image-2/05.webp)
+
+![](/assets/image/Paint/gpt-image-2/06.webp)
+
+9. 输入提示词后即可开始生成。首次使用时，建议先将 `图片尺寸`、`质量`、`敏感度` 等选项保持为 `自动`，确认流程跑通后再按需微调。
+
+::: tip 使用建议
+- API 地址直接填写 `https://www.packyapi.com` 即可，Cherry Studio 会自动拼接兼容端点，无需手动补 `/v1`。
+- 如果模型列表没有自动带出 `gpt-image-2`，可以先在 `管理` 中刷新模型，再检查 `端点类型` 是否为 `图像生成（OpenAI）`。
+- 如果你是在普通对话页里直接调用 `gpt-image-2`，建议关闭 `流式输出`，避免返回内容解析异常；使用 `绘画` 应用时通常不需要额外处理。
+:::
