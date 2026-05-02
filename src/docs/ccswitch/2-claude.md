@@ -35,3 +35,9 @@ order: 2
 8. 在终端运行 `claude`，看到对话界面并能正常回复即表示配置完成
 
 ![](/assets/image/Cli/016.webp)
+
+::: warning 使用提醒
+如果你使用的是 [CC分组](/docs/token/2-group.html#cc分组)，请注意该分组**不支持第三方接入**，因此无法在 CC Switch 中完成完整的调用测试。
+
+这类配置是否生效，请直接以 Claude Code 内的实际对话结果为准，并在 Claude Code 中完成最终测试。
+:::
