@@ -89,12 +89,18 @@ set HTTPS_PROXY=http://127.0.0.1:7897
 
 ![](/assets/image/Advanced/ClaudeDesktop/11.webp)
 
-2. 在Gateway base URL填入 `https://www.packyapi.com`，Gateway API key请填入生成的 CC分组 的APIKEY。并打开最下方 `Skip login-mode chooser` 选项
+2. 在Gateway base URL填入 `https://www.packyapi.com`
+
+3. 将Gateway auth scheme更改为 `x-api-key`
+
+4. Gateway API key请填入生成的 CC分组 的APIKEY
+
+5. 打开最下方 `Skip login-mode chooser` 选项
 
 ![](/assets/image/Advanced/ClaudeDesktop/12.webp)
 
-3. 点击右下角 `Apply locally` 按钮使配置生效
+6. 点击右下角 `Apply locally` 按钮使配置生效
 
-4. 进行愉快的对话吧~
+7. 进行愉快的对话吧~
 
 ![](/assets/image/Advanced/ClaudeDesktop/13.webp)
