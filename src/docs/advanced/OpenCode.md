@@ -46,16 +46,16 @@ npm install -g opencode-ai
     ::: important
     **目前支持OpenCode的分组：**
 
-    - **GPT：[codex分组](/docs/token/2-token.html#codex分组)、[gpt-officially分组](/docs/token/2-token.html#gpt-officially分组)**
-    - **Claude：[aws-q分组](/docs/token/2-token.html#aws-q分组)、[aws分组](/docs/token/2-token.html#aws分组)、[claude-officially分组](/docs/token/2-token.html#claude-officially分组)**
+    - **GPT：[codex分组](/docs/token/2-group.html#codex分组)、[gpt-officially分组](/docs/token/2-group.html#gpt-officially分组)**
+    - **Claude：[aws-q分组](/docs/token/2-group.html#aws-q分组)、[aws分组](/docs/token/2-group.html#aws分组)、[claude-officially分组](/docs/token/2-group.html#claude-officially分组)**
 
-    - **Gemini**：[gemini-slb分组](/docs/token/2-token.html#gemini-slb分组)
+    - **Gemini**：[gemini-slb分组](/docs/token/2-group.html#gemini-slb分组)
 
     **请您创建正确分组的APIKEY后填入**
     :::
 
     - 在 `额外选项` 中配置键值对 `{"setCacheKey":true}`
-    - 在 `模型配置` 中配置ApiKey对应分组下正确的模型名，每个分组下的模型可在 [令牌分组介绍](/docs/token/2-token.html) 一节中查询。
+    - 在 `模型配置` 中配置ApiKey对应分组下正确的模型名，每个分组下的模型可在 [令牌分组介绍](/docs/token/2-group.html) 一节中查询。
     **比如现在我的ApiKey对应的是Codex分组，那么我可以直接配置：**
         - 模型ID：gpt-5.2 显示名称：gpt-5.2
         - 模型ID：gpt-5.2-codex 显示名称：gpt-5.2-codex

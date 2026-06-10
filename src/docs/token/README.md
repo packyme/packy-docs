@@ -4,7 +4,7 @@ index: false
 icon: fa-solid fa-star-of-david
 category:
   - 模型分组
-date: 2025-11-23
+date: 2026-06-10
 ---
 
 ## 如何查看最新分组
@@ -52,100 +52,10 @@ date: 2025-11-23
 </ClientOnly>
 :::
 
-### ::material-icon-theme:claude:: CC分组
-::: info 详情卡片
-- **分组介绍：**
-    - **使用Claude Code需要选择此分组！**，主要分组之一，专门用于Claude Code使用，不能接入任何第三方，如果触发PackyApi的环境审查，会封停你的PackyApi账号，并进入退款流程。这样做是因为有些人向Claude询问一些NSFW问题，会触发道德审查，导致账号被封且无法退款，为了号池稳定，请勿接入任何第三方
-
-- **支持的CLI：**
-    - Claude Code
-
-- **是否支持接入第三方：**
-    - ×不支持
-
-- **模型列表（实时查询）：**
-
-<ClientOnly>
-  <ModelList group="cc" />
-</ClientOnly>
-:::
-
-### ::hugeicons:chat-gpt:: Codex分组
-::: info 详情卡片
-- **分组介绍：**
-    - **使用Codex需要选择此分组！**，主要分组之一，专门用于Codex使用，可以接入第三方使用。尽量还是在Codex中使用，因为这个分组的模型都是对编程特化的，用在其他方面可能效果并不理想
-
-- **支持的CLI：**
-    - Codex
-
-- **是否支持接入第三方：**
-    - √支持
-
-- **模型列表（实时查询）：**
-
-<ClientOnly>
-  <ModelList group="codex" />
-</ClientOnly>
-:::
-
-### ::devicon:azure:: ::hugeicons:chat-gpt:: Azure分组
-::: info 详情卡片
-- **分组介绍：**
-    - 来源于Azure GCP的GPT模型，支持模型较少，可以使用在OpenCode等第三方工具中，也可以拿来聊天
-
-- **支持的CLI：**
-    - 无
-
-- **是否支持接入第三方：**
-    - √支持
-
-- **模型列表（实时查询）：**
-
-<ClientOnly>
-  <ModelList group="azure" />
-</ClientOnly>
-:::
-
-### ::hugeicons:chat-gpt:: GPT-officially分组
-::: info 详情卡片
-- **分组介绍：**
-    - **谨慎选择此分组！**，GPT官方ApiKey分发模型，适合特殊需要人群使用，普通用户不要选择这个分组，会快速扣额度
-
-- **支持的CLI：**
-    - 无
-
-- **是否支持接入第三方：**
-    - √支持
-
-- **模型列表（实时查询）：**
-
-<ClientOnly>
-  <ModelList group="gpt-officially" />
-</ClientOnly>
-:::
-
-### ::material-icon-theme:claude:: claude-officially分组
-::: info 详情卡片
-- **分组介绍：**
-    - Claude 官方key渠道，价格基本对标官方价，适合应急使用
-
-- **支持的CLI：**
-    - Claude Code
-
-- **是否支持接入第三方：**
-    - √支持
-
-- **模型列表（实时查询）：**
-
-<ClientOnly>
-  <ModelList group="claude-officially" />
-</ClientOnly>
-:::
-
 ### ::skill-icons:aws-light:: ::material-icon-theme:claude:: Aws分组
 ::: info 详情卡片
 - **分组介绍：**
-    - 从亚马逊AWS平台购买的正规Claude模型，转换为API使用形式。此模型与Claude官方模型分开部署，价格贵但稳定，适合兜底使用，仅了解即可
+    - 亚马逊AWS平台逆向的claude模型，相比AWS官渠，稍微便宜一些，但是稳定性稍微低一些。可用于Claude Code以及其他第三方平台
 
 - **支持的CLI：**
     - Claude Code
@@ -157,6 +67,24 @@ date: 2025-11-23
 
 <ClientOnly>
   <ModelList group="aws" />
+</ClientOnly>
+:::
+
+### ::skill-icons:aws-light:: ::material-icon-theme:claude:: Aws-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - 从亚马逊AWS平台购买的正规Claude API。此模型与Claude官方模型分开部署，价格贵但稳定，适合兜底使用，仅了解即可
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="aws-officially" />
 </ClientOnly>
 :::
 
@@ -181,10 +109,65 @@ date: 2025-11-23
 </ClientOnly>
 :::
 
+### ::devicon:azure:: ::hugeicons:chat-gpt:: Azure-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - Azure官方渠道，提供GPT相关模型，可以使用在OpenCode等第三方工具中，也可以拿来聊天
+
+- **支持的CLI：**
+    - 无
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="azure-officially" />
+</ClientOnly>
+:::
+
+### ::simple-icons:alibabacloud:: Bailian分组
+::: info 详情卡片
+- **分组介绍：**
+    - 阿里百炼官方版本渠道，此分组模型使用会按阶梯计价
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="bailian" />
+</ClientOnly>
+:::
+
+### ::material-icon-theme:claude:: CC分组
+::: info 详情卡片
+- **分组介绍：**
+    - 使用Claude Code需要选择此分组！主要分组之一，专门用于Claude Code使用，不能接入任何第三方，如果触发PackyApi的环境审查，会封停你的PackyApi账号，并进入退款流程。这样做是因为有些人向Claude询问一些NSFW问题，会触发道德审查，导致账号被封且无法退款，为了号池稳定，请勿接入任何第三方
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - ×不支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="cc" />
+</ClientOnly>
+:::
+
 ### ::material-icon-theme:claude:: CC-azu-sale分组
 ::: info 详情卡片
 - **分组介绍：**
-    - 使用Azure账号组成的号池，仅支持五分钟的缓存，稍微便宜一点，不稳定，随时可能会下架
+    - 可用于第三方、Claude Code 的宝贝物品
+
 - **支持的CLI：**
     - Claude Code
 
@@ -198,10 +181,142 @@ date: 2025-11-23
 </ClientOnly>
 :::
 
-### ::vscode-icons:file-type-gemini:: Antigravity分组
+### ::material-icon-theme:claude:: CC-expensive分组
 ::: info 详情卡片
 - **分组介绍：**
-    - 逆向谷歌目前推出的最新IDE [Antigravity](https://antigravity.google/) 后得到的模型，模型名相对于API形式有所变化，需要参照上一步提到的分组模型查看方法，查看此分组下存在的模型，以便于在你配置Cline等插件时能正确填写该分组模型名，避免出现“模型不存在”问题
+    - 昂贵的 Claude Code 分组，可用于第三方
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="cc-expensive" />
+</ClientOnly>
+:::
+
+### ::material-icon-theme:claude:: CC-sale分组
+::: info 详情卡片
+- **分组介绍：**
+    - 便宜的Claude Code分组，提供较为廉价的Claude模型，跟官渠效果差不多，可以接入OpenClaw等第三方使用（养龙虾）
+
+> [!important]
+> **此分组缓存可能会有异常**
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="cc-sale" />
+</ClientOnly>
+:::
+
+### ::material-icon-theme:claude:: claude-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - Claude 官方key渠道，价格基本对标官方价，适合应急使用
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="claude-officially" />
+</ClientOnly>
+:::
+
+### ::material-icon-theme:claude:: claude-sale分组
+::: info 详情卡片
+- **分组介绍：**
+    - 逆向出来的Claude模型，贵一些，类似官渠，适合应急时候使用
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="claude-sale" />
+</ClientOnly>
+:::
+
+### ::hugeicons:chat-gpt:: Codex分组
+::: info 详情卡片
+- **分组介绍：**
+    - 使用Codex需要选择此分组！主要分组之一，专门用于Codex使用，可以接入第三方使用。尽量还是在Codex中使用，因为这个分组的模型都是对编程特化的，用在其他方面可能效果并不理想
+
+- **支持的CLI：**
+    - Codex
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="codex" />
+</ClientOnly>
+:::
+
+### ::hugeicons:chat-gpt:: Codex-sale分组
+::: info 详情卡片
+- **分组介绍：**
+    - Codex分组的优惠版本，价格更加廉价
+
+- **支持的CLI：**
+    - Codex
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="codex-sale" />
+</ClientOnly>
+:::
+
+### ::hugeicons:chat-gpt:: Cxtocc分组
+::: info 详情卡片
+- **分组介绍：**
+    - 早期为将 codex 分组模型接入 Claude Code 做过兼容适配的分组。由于该方案稳定性和缓存表现不再符合推荐使用标准，仅保留给已有配置用户参考。
+
+> [!important]
+> **此分组已不再建议使用。新用户请优先按照对应工具选择推荐分组：GPT 模型建议在 Codex 中使用，Claude 模型建议在 Claude Code 中使用。**
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - ×不支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="cxtocc" />
+</ClientOnly>
+:::
+
+### ::simple-icons:deepseek:: DeepSeek-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - DeepSeek官方渠道，提供DeepSeek相关模型
 
 - **支持的CLI：**
     - 无
@@ -212,17 +327,17 @@ date: 2025-11-23
 - **模型列表（实时查询）：**
 
 <ClientOnly>
-  <ModelList group="antigravity" />
+  <ModelList group="deepseek-officially" />
 </ClientOnly>
 :::
 
-### ::vscode-icons:file-type-gemini:: Gemini-slb分组
+### ::simple-icons:bytedance:: Doubao分组
 ::: info 详情卡片
 - **分组介绍：**
-    - Gemini企业号池，更加稳定一些，不过价格稍贵，使用Gemini-3 一般接入这个分组的号池，体验很不错
+    - 火山方舟官方渠道，比官方稍微廉价一些，提供豆包相关模型
 
 - **支持的CLI：**
-    - Gemini
+    - Claude Code
 
 - **是否支持接入第三方：**
     - √支持
@@ -230,7 +345,7 @@ date: 2025-11-23
 - **模型列表（实时查询）：**
 
 <ClientOnly>
-  <ModelList group="gemini-slb" />
+  <ModelList group="doubao" />
 </ClientOnly>
 :::
 
@@ -252,10 +367,46 @@ date: 2025-11-23
 </ClientOnly>
 :::
 
-### ::vscode-icons:file-type-gemini:: Gemini-Web分组
+### ::vscode-icons:file-type-gemini:: Gemini-officially分组
 ::: info 详情卡片
 - **分组介绍：**
-    - 非常廉价，适合日常聊天使用，不适合作为生产力，稳定性不如Ant与Gemini分组，简单来说，纯玩具。不过这个分组拿来玩画图很舒服~
+    - 完全接的官方渠道的Gemini API，价格对标官方，适合企业用户
+
+- **支持的CLI：**
+    - Gemini Cli
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="gemini-officially" />
+</ClientOnly>
+:::
+
+### ::vscode-icons:file-type-gemini:: Gemini-slb分组
+::: info 详情卡片
+- **分组介绍：**
+    - Gemini企业号池，更加稳定一些，不过价格稍贵，使用Gemini-3 一般接入这个分组的号池，体验很不错
+
+- **支持的CLI：**
+    - Gemini
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="gemini-slb" />
+</ClientOnly>
+:::
+
+### ::hugeicons:chat-gpt:: GPT-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - 谨慎选择此分组！GPT官方ApiKey分发模型，适合特殊需要人群使用，普通用户不要选择这个分组，会快速扣额度
 
 - **支持的CLI：**
     - 无
@@ -266,7 +417,97 @@ date: 2025-11-23
 - **模型列表（实时查询）：**
 
 <ClientOnly>
-  <ModelList group="gemini-web" />
+  <ModelList group="gpt-officially" />
+</ClientOnly>
+:::
+
+### ::material-symbols:image-outline:: Image分组
+::: info 详情卡片
+- **分组介绍：**
+    - 官方稳定的Image绘图模型聚合分组，具体使用方法可参考「绘图模型教程」章节
+
+- **支持的CLI：**
+    - 无
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="image" />
+</ClientOnly>
+:::
+
+### ::simple-icons:xiaomi:: Mimo-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - 小米MiMo官方版本渠道
+
+- **支持的CLI：**
+    - 无
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="mimo-officially" />
+</ClientOnly>
+:::
+
+### ::material-symbols:token:: Minimax-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - minimax官方渠道，提供较为廉价的minimax模型
+
+- **支持的CLI：**
+    - Claude Code
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="minimax-officially" />
+</ClientOnly>
+:::
+
+### ::simple-icons:perplexity:: Pplx分组
+::: info 详情卡片
+- **分组介绍：**
+    - perplexity相关模型逆向，不做深入解释，了解即可
+
+- **支持的CLI：**
+    - 无
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="pplx" />
+</ClientOnly>
+:::
+
+### ::material-symbols:movie-outline:: Sora分组
+::: info 详情卡片
+- **分组介绍：**
+    - Sora视频生成模型专用分组
+
+- **支持的CLI：**
+    - 无
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="sora" />
 </ClientOnly>
 :::
 

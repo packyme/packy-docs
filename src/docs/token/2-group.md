@@ -15,22 +15,12 @@ order: 2
   />
 </ClientOnly>
 
-### ::vscode-icons:file-type-gemini:: Antigravity分组
-
-<ClientOnly>
-  <GroupCard
-    group="antigravity"
-    description="逆向谷歌目前推出的最新IDE Antigravity 后得到的模型，模型名相对于API形式有所变化，需要参照上一步提到的分组模型查看方法，查看此分组下存在的模型，以便于在你配置Cline等插件时能正确填写该分组模型名，避免出现「模型不存在」问题"
-    :thirdParty="true"
-  />
-</ClientOnly>
-
 ### ::skill-icons:aws-light:: ::material-icon-theme:claude:: Aws分组
 
 <ClientOnly>
   <GroupCard
     group="aws"
-    description="亚马逊AWS平台逆向的claude模型，相比AWS官渠，稍微便宜一些，但是稳定性稍微低一些"
+    description="亚马逊AWS平台逆向的claude模型，相比AWS官渠，稍微便宜一些，但是稳定性稍微低一些。可用于Claude Code以及其他第三方平台"
     :cli="['Claude Code']"
     :thirdParty="true"
   />
@@ -59,23 +49,12 @@ order: 2
   />
 </ClientOnly>
 
-### ::skill-icons:aws-light:: ::material-icon-theme:claude:: Aws-Q-sale分组
+### ::devicon:azure:: ::hugeicons:chat-gpt:: Azure-officially分组
 
 <ClientOnly>
   <GroupCard
-    group="aws-q-sale"
-    description="逆向Kiro的AWSQ的Claude模型，转换为API使用形式。此模型渠道特殊，使用了一系列手法，价格极其低廉。此分组不支持opus模型"
-    :cli="['Claude Code']"
-    :thirdParty="true"
-  />
-</ClientOnly>
-
-### ::devicon:azure:: ::hugeicons:chat-gpt:: Azure分组
-
-<ClientOnly>
-  <GroupCard
-    group="azure"
-    description="来源于Azure GCP的GPT模型，支持模型较少，可以使用在OpenCode等第三方工具中，也可以拿来聊天"
+    group="azure-officially"
+    description="Azure官方渠道，提供GPT相关模型，可以使用在OpenCode等第三方工具中，也可以拿来聊天"
     :thirdParty="true"
   />
 </ClientOnly>
@@ -85,7 +64,7 @@ order: 2
 <ClientOnly>
   <GroupCard
     group="bailian"
-    description="阿里百炼官方渠道，此分组模型使用会按阶梯计价"
+    description="阿里百炼官方版本渠道，此分组模型使用会按阶梯计价"
     :cli="['Claude Code']"
     :thirdParty="true"
   />
@@ -102,14 +81,37 @@ order: 2
   />
 </ClientOnly>
 
+### ::material-icon-theme:claude:: CC-azu-sale分组
+
+<ClientOnly>
+  <GroupCard
+    group="cc-azu-sale"
+    description="可用于第三方、Claude Code 的宝贝物品"
+    :cli="['Claude Code']"
+    :thirdParty="true"
+  />
+</ClientOnly>
+
+### ::material-icon-theme:claude:: CC-expensive分组
+
+<ClientOnly>
+  <GroupCard
+    group="cc-expensive"
+    description="昂贵的 Claude Code 分组，可用于第三方"
+    :cli="['Claude Code']"
+    :thirdParty="true"
+  />
+</ClientOnly>
+
 ### ::material-icon-theme:claude:: CC-sale分组
 
 <ClientOnly>
   <GroupCard
     group="cc-sale"
-    description="一个很新的渠道，目前还不太稳定，提供较为廉价的Claude模型，跟官渠效果差不多"
+    description="便宜的Claude Code分组，提供较为廉价的Claude模型，跟官渠效果差不多，可以接入OpenClaw等第三方使用（养龙虾）"
     :cli="['Claude Code']"
     :thirdParty="true"
+    warning="此分组缓存可能会有异常"
   />
 </ClientOnly>
 
@@ -146,6 +148,17 @@ order: 2
   />
 </ClientOnly>
 
+### ::hugeicons:chat-gpt:: Codex-sale分组
+
+<ClientOnly>
+  <GroupCard
+    group="codex-sale"
+    description="Codex分组的优惠版本，价格更加廉价"
+    :cli="['Codex']"
+    :thirdParty="true"
+  />
+</ClientOnly>
+
 ### ::hugeicons:chat-gpt:: Cxtocc分组
 
 <ClientOnly>
@@ -155,6 +168,16 @@ order: 2
     :cli="['Claude Code']"
     :thirdParty="false"
     warning="此分组已不再建议使用。新用户请优先按照对应工具选择推荐分组：GPT 模型建议在 Codex 中使用，Claude 模型建议在 Claude Code 中使用。"
+  />
+</ClientOnly>
+
+### ::simple-icons:deepseek:: DeepSeek-officially分组
+
+<ClientOnly>
+  <GroupCard
+    group="deepseek-officially"
+    description="DeepSeek官方渠道，提供DeepSeek相关模型"
+    :thirdParty="true"
   />
 </ClientOnly>
 
@@ -202,22 +225,32 @@ order: 2
   />
 </ClientOnly>
 
-### ::vscode-icons:file-type-gemini:: Gemini-Web分组
-
-<ClientOnly>
-  <GroupCard
-    group="gemini-web"
-    description="非常廉价，适合日常聊天使用，不适合作为生产力，稳定性不如Ant与Gemini分组，简单来说，纯玩具。不过这个分组拿来玩画图很舒服~"
-    :thirdParty="true"
-  />
-</ClientOnly>
-
 ### ::hugeicons:chat-gpt:: GPT-officially分组
 
 <ClientOnly>
   <GroupCard
     group="gpt-officially"
     description="谨慎选择此分组！GPT官方ApiKey分发模型，适合特殊需要人群使用，普通用户不要选择这个分组，会快速扣额度"
+    :thirdParty="true"
+  />
+</ClientOnly>
+
+### ::material-symbols:image-outline:: Image分组
+
+<ClientOnly>
+  <GroupCard
+    group="image"
+    description="官方稳定的Image绘图模型聚合分组，具体使用方法可参考「绘图模型教程」章节"
+    :thirdParty="true"
+  />
+</ClientOnly>
+
+### ::simple-icons:xiaomi:: Mimo-officially分组
+
+<ClientOnly>
+  <GroupCard
+    group="mimo-officially"
+    description="小米MiMo官方版本渠道"
     :thirdParty="true"
   />
 </ClientOnly>
@@ -239,6 +272,16 @@ order: 2
   <GroupCard
     group="pplx"
     description="perplexity相关模型逆向，不做深入解释，了解即可"
+    :thirdParty="true"
+  />
+</ClientOnly>
+
+### ::material-symbols:movie-outline:: Sora分组
+
+<ClientOnly>
+  <GroupCard
+    group="sora"
+    description="Sora视频生成模型专用分组"
     :thirdParty="true"
   />
 </ClientOnly>

@@ -15,17 +15,16 @@ Gemini CLI 目前存在多种使用问题，例如可能无法正常调用模型
 
 ::: tip 更推荐的方式
 - 优先使用 Roo Code 等第三方 VSCode 插件
-- 如必须使用 Gemini CLI，建议使用 Antigravity 分组渠道（兼容性更好）
+- 如必须使用 Gemini CLI，建议使用 Gemini-slb 分组渠道（企业号池，更加稳定）
 :::
 
 ![](/assets/image/FAQ/Gemini/001.webp)
 
 > [!important]
-> 如果你不会使用 Roo Code，我们推荐你使用 Antigravity 分组渠道的模型在 Gemini CLI 使用，能比较好地适配 CLI。特别提醒：该分组的 Gemini-3 模型名称可能与其他分组不同，详情查看 [Antigravity 分组说明](/docs/token/2-token.html#antigravity分组) 内容，避免配置时出现“无可用渠道”或“模型不存在”问题。
+> 如果你不会使用 Roo Code，我们推荐你使用 Gemini-slb 分组渠道的模型在 Gemini CLI 使用，使用 Gemini-3 一般接入这个分组的号池，体验很不错。每个分组支持的模型可查看 [Gemini-slb 分组说明](/docs/token/2-group.html#gemini-slb分组) 内容，避免配置时出现“无可用渠道”或“模型不存在”问题。
 
 ::: info 特别提醒
 - 在 Roo Code 等第三方使用时，选取 `OpenAI Response` 请求格式
-- Antigravity 分组的模型通常不自带联网功能，可能需要借助 MCP 等工具实现
 :::
 
 ### 如何在 Cline 使用 Gemini-3
