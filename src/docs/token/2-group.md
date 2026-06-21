@@ -131,9 +131,9 @@ order: 2
 <ClientOnly>
   <GroupCard
     group="claude-sale"
-    description="逆向出来的Claude模型，贵一些，类似官渠，适合应急时候使用"
+    description="逆向出来的Claude模型，贵一些，类似官渠，适合应急时候使用，仅支持Claude Code使用，不支持接入第三方"
     :cli="['Claude Code']"
-    :thirdParty="true"
+    :thirdParty="false"
   />
 </ClientOnly>
 

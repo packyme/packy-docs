@@ -90,13 +90,13 @@ onBeforeUnmount(() => {
 <ClientOnly>
   <div class="qq-groups">
     <div
-      class="qq-card rose-card"
+      class="qq-card blue-card"
       role="button"
       tabindex="0"
-      aria-label="复制售后QQ群五"
-      @click="copyQQ('112422987', 'qq5')"
-      @keydown.enter.prevent="copyQQ('112422987', 'qq5')"
-      @keydown.space.prevent="copyQQ('112422987', 'qq5')"
+      aria-label="复制售后QQ群六"
+      @click="copyQQ('187976588', 'qq6')"
+      @keydown.enter.prevent="copyQQ('187976588', 'qq6')"
+      @keydown.space.prevent="copyQQ('187976588', 'qq6')"
     >
       <div class="card-bg"></div>
       <div class="card-content">
@@ -104,17 +104,17 @@ onBeforeUnmount(() => {
           <img
             class="qq-logo"
             src="/assets/image/logo/qq.webp"
-            alt="售后QQ群五"
+            alt="售后QQ群六"
           />
           <div class="logo-glow"></div>
         </div>
         <div class="qq-meta">
-          <p class="qq-label">售后QQ群五</p>
-          <p class="qq-number">112422987</p>
+          <p class="qq-label">售后QQ群六</p>
+          <p class="qq-number">187976588</p>
         </div>
         <div class="card-shine"></div>
       </div>
-      <div v-if="activeCard === 'qq5'" class="inline-notice">
+      <div v-if="activeCard === 'qq6'" class="inline-notice">
         <span class="notice-pill">{{ noticeText }}</span>
       </div>
     </div>
@@ -138,21 +138,14 @@ onBeforeUnmount(() => {
 <style scoped>
 /* QQ Groups Styles */
 .qq-groups {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  display: flex;
+  justify-content: center;
   margin: 20px 0 32px;
-}
-
-@media (min-width: 1280px) {
-  .qq-groups {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 16px;
-  }
 }
 
 .qq-card {
   position: relative;
+  width: min(100%, 360px);
   border-radius: 24px;
   overflow: hidden;
   cursor: pointer;
@@ -172,26 +165,6 @@ onBeforeUnmount(() => {
 
 .blue-card .card-bg {
   background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
-  opacity: 0.8;
-}
-
-.purple-card .card-bg {
-  background: linear-gradient(135deg, #f3e8ff 0%, #e9d5ff 100%);
-  opacity: 0.8;
-}
-
-.green-card .card-bg {
-  background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
-  opacity: 0.8;
-}
-
-.amber-card .card-bg {
-  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
-  opacity: 0.8;
-}
-
-.rose-card .card-bg {
-  background: linear-gradient(135deg, #ffe4e6 0%, #fecdd3 100%);
   opacity: 0.8;
 }
 
@@ -215,22 +188,6 @@ onBeforeUnmount(() => {
 
 .blue-card::before {
   background: radial-gradient(circle, rgba(56, 189, 248, 0.4), transparent);
-}
-
-.purple-card::before {
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.4), transparent);
-}
-
-.green-card::before {
-  background: radial-gradient(circle, rgba(34, 197, 94, 0.4), transparent);
-}
-
-.amber-card::before {
-  background: radial-gradient(circle, rgba(251, 191, 36, 0.4), transparent);
-}
-
-.rose-card::before {
-  background: radial-gradient(circle, rgba(244, 63, 94, 0.35), transparent);
 }
 
 .card-content {
@@ -278,22 +235,6 @@ onBeforeUnmount(() => {
   background: #b5e9ffff;
 }
 
-.purple-card .logo-glow {
-  background: #ead6ffff;
-}
-
-.green-card .logo-glow {
-  background: #bbf7d0ff;
-}
-
-.amber-card .logo-glow {
-  background: #fde68aff;
-}
-
-.rose-card .logo-glow {
-  background: #fecdd3ff;
-}
-
 .qq-card:hover .logo-glow {
   opacity: 0.9;
   animation: pulse-glow 2s infinite;
@@ -322,10 +263,6 @@ onBeforeUnmount(() => {
 }
 
 .blue-card .qq-label { color: #0369a1; }
-.purple-card .qq-label { color: #7e22ce; }
-.green-card .qq-label { color: #15803d; }
-.amber-card .qq-label { color: #92400e; }
-.rose-card .qq-label { color: #be123c; }
 
 .qq-number {
   margin: 0;
@@ -340,22 +277,6 @@ onBeforeUnmount(() => {
 
 .blue-card .qq-number {
   background-image: linear-gradient(135deg, #0284c7, #0ea5e9);
-}
-
-.purple-card .qq-number {
-  background-image: linear-gradient(135deg, #9333ea, #c084fc);
-}
-
-.green-card .qq-number {
-  background-image: linear-gradient(135deg, #16a34a, #4ade80);
-}
-
-.amber-card .qq-number {
-  background-image: linear-gradient(135deg, #d97706, #f59e0b);
-}
-
-.rose-card .qq-number {
-  background-image: linear-gradient(135deg, #e11d48, #fb7185);
 }
 
 .qq-card:hover .qq-label {
@@ -416,64 +337,9 @@ onBeforeUnmount(() => {
               inset 0 0 0 1px rgba(255, 255, 255, 0.6);
 }
 
-.purple-card {
-  box-shadow: 0 10px 30px -10px rgba(168, 85, 247, 0.15),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.6);
-}
-
-.green-card {
-  box-shadow: 0 10px 30px -10px rgba(34, 197, 94, 0.15),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.6);
-}
-
-.amber-card {
-  box-shadow: 0 10px 30px -10px rgba(251, 191, 36, 0.15),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.6);
-}
-
-.rose-card {
-  box-shadow: 0 10px 30px -10px rgba(244, 63, 94, 0.15),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.6);
-}
-
 .blue-card:hover {
   box-shadow: 0 20px 40px -10px rgba(14, 165, 233, 0.3),
               inset 0 0 0 1px rgba(255, 255, 255, 0.8);
-}
-
-.purple-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(168, 85, 247, 0.3),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.8);
-}
-
-.green-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(34, 197, 94, 0.3),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.8);
-}
-
-.amber-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(251, 191, 36, 0.3),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.8);
-}
-
-.rose-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(244, 63, 94, 0.3),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.8);
-}
-
-/* 已满标签 */
-.qq-full {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 6px;
-  background: linear-gradient(135deg, #fecaca, #fca5a5);
-  color: #991b1b;
-  letter-spacing: 0.5px;
-  vertical-align: middle;
-  margin-left: 6px;
-  text-transform: none;
 }
 
 @media (min-width: 1280px) {
@@ -497,8 +363,8 @@ onBeforeUnmount(() => {
 }
 
 @media (max-width: 540px) {
-  .qq-groups {
-    grid-template-columns: 1fr;
+  .qq-card {
+    width: 100%;
   }
 }
 
@@ -625,40 +491,8 @@ html[data-theme="dark"] .blue-card .card-bg {
   background: linear-gradient(135deg, rgba(56, 189, 248, 0.08) 0%, rgba(14, 165, 233, 0.12) 100%);
 }
 
-html[data-theme="dark"] .purple-card .card-bg {
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.08) 0%, rgba(147, 51, 234, 0.12) 100%);
-}
-
-html[data-theme="dark"] .green-card .card-bg {
-  background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, rgba(22, 163, 74, 0.12) 100%);
-}
-
-html[data-theme="dark"] .amber-card .card-bg {
-  background: linear-gradient(135deg, rgba(251, 191, 36, 0.08) 0%, rgba(217, 119, 6, 0.12) 100%);
-}
-
-html[data-theme="dark"] .rose-card .card-bg {
-  background: linear-gradient(135deg, rgba(244, 63, 94, 0.08) 0%, rgba(225, 29, 72, 0.12) 100%);
-}
-
 html[data-theme="dark"] .blue-card::before {
   background: radial-gradient(circle, rgba(56, 189, 248, 0.15), transparent);
-}
-
-html[data-theme="dark"] .purple-card::before {
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.15), transparent);
-}
-
-html[data-theme="dark"] .green-card::before {
-  background: radial-gradient(circle, rgba(34, 197, 94, 0.15), transparent);
-}
-
-html[data-theme="dark"] .amber-card::before {
-  background: radial-gradient(circle, rgba(251, 191, 36, 0.15), transparent);
-}
-
-html[data-theme="dark"] .rose-card::before {
-  background: radial-gradient(circle, rgba(244, 63, 94, 0.15), transparent);
 }
 
 html[data-theme="dark"] .qq-card {
@@ -667,49 +501,13 @@ html[data-theme="dark"] .qq-card {
 }
 
 html[data-theme="dark"] .blue-card .qq-label { color: #93c5fd; }
-html[data-theme="dark"] .purple-card .qq-label { color: #c4b5fd; }
-html[data-theme="dark"] .green-card .qq-label { color: #86efac; }
-html[data-theme="dark"] .amber-card .qq-label { color: #fcd34d; }
-html[data-theme="dark"] .rose-card .qq-label { color: #fda4af; }
 
 html[data-theme="dark"] .blue-card .qq-number {
   background-image: linear-gradient(135deg, #60a5fa, #93c5fd);
 }
 
-html[data-theme="dark"] .purple-card .qq-number {
-  background-image: linear-gradient(135deg, #a78bfa, #c4b5fd);
-}
-
-html[data-theme="dark"] .green-card .qq-number {
-  background-image: linear-gradient(135deg, #4ade80, #86efac);
-}
-
-html[data-theme="dark"] .amber-card .qq-number {
-  background-image: linear-gradient(135deg, #fbbf24, #fcd34d);
-}
-
-html[data-theme="dark"] .rose-card .qq-number {
-  background-image: linear-gradient(135deg, #fb7185, #fda4af);
-}
-
 html[data-theme="dark"] .blue-card .logo-glow {
   background: rgba(96, 165, 250, 0.25);
-}
-
-html[data-theme="dark"] .purple-card .logo-glow {
-  background: rgba(167, 139, 250, 0.25);
-}
-
-html[data-theme="dark"] .green-card .logo-glow {
-  background: rgba(74, 222, 128, 0.25);
-}
-
-html[data-theme="dark"] .amber-card .logo-glow {
-  background: rgba(251, 191, 36, 0.25);
-}
-
-html[data-theme="dark"] .rose-card .logo-glow {
-  background: rgba(251, 113, 133, 0.25);
 }
 
 html[data-theme="dark"] .card-shine {
@@ -721,54 +519,9 @@ html[data-theme="dark"] .blue-card {
               inset 0 0 0 1px rgba(96, 165, 250, 0.15);
 }
 
-html[data-theme="dark"] .purple-card {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5),
-              inset 0 0 0 1px rgba(167, 139, 250, 0.15);
-}
-
-html[data-theme="dark"] .green-card {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5),
-              inset 0 0 0 1px rgba(74, 222, 128, 0.15);
-}
-
-html[data-theme="dark"] .amber-card {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5),
-              inset 0 0 0 1px rgba(251, 191, 36, 0.15);
-}
-
-html[data-theme="dark"] .rose-card {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5),
-              inset 0 0 0 1px rgba(251, 113, 133, 0.15);
-}
-
 html[data-theme="dark"] .blue-card:hover {
   box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
               inset 0 0 0 1px rgba(96, 165, 250, 0.3);
-}
-
-html[data-theme="dark"] .purple-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
-              inset 0 0 0 1px rgba(167, 139, 250, 0.3);
-}
-
-html[data-theme="dark"] .green-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
-              inset 0 0 0 1px rgba(74, 222, 128, 0.3);
-}
-
-html[data-theme="dark"] .amber-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
-              inset 0 0 0 1px rgba(251, 191, 36, 0.3);
-}
-
-html[data-theme="dark"] .rose-card:hover {
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.6),
-              inset 0 0 0 1px rgba(251, 113, 133, 0.3);
-}
-
-html[data-theme="dark"] .qq-full {
-  background: rgba(239, 68, 68, 0.2);
-  color: #fca5a5;
 }
 
 html[data-theme="dark"] .notice-pill {
