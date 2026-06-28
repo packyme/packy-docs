@@ -97,9 +97,9 @@ order: 2
 <ClientOnly>
   <GroupCard
     group="cc-expensive"
-    description="昂贵的 Claude Code 分组，可用于第三方"
+    description="昂贵的 Claude Code 分组，支持第三方。但openclaw等可能会出现不可接入"
     :cli="['Claude Code']"
-    :thirdParty="false"
+    :thirdParty="true"
   />
 </ClientOnly>
 
