@@ -99,7 +99,7 @@ order: 2
     group="cc-expensive"
     description="昂贵的 Claude Code 分组，可用于第三方"
     :cli="['Claude Code']"
-    :thirdParty="true"
+    :thirdParty="false"
   />
 </ClientOnly>
 
