@@ -14,7 +14,7 @@ CC Switch 可以直接显示 PackyCode 的已用额度和剩余额度。用量�
 
 ![](/assets/image/CC-Switch/guide/019.jpg)
 
-3. 请求地址填写 `https://cf.api.fan`。前往 PackyApi **个人设置 → 安全设置**生成系统访问令牌；用户 ID 可在个人设置页顶部查看。
+3. 请求地址填写 `https://www.packyapi.ai`。前往 PackyApi **个人设置 → 安全设置**生成系统访问令牌；用户 ID 可在个人设置页顶部查看。
 
 ![](/assets/image/CC-Switch/guide/020.jpg)
 
