@@ -198,11 +198,6 @@ export default sidebar({
                     link: "Hermes.md",
                 },
                 {
-                    text: "WorkBuddy",
-                    icon: "/assets/icon/workbuddy.png",
-                    link: "WorkBuddy.md",
-                },
-                {
                     text: "All API Hub",
                     icon: "material-symbols:extension",
                     link: "AllApiHub.md",
