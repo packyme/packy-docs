@@ -200,7 +200,7 @@ date: 2026-06-10
 ### ::vscode-icons:file-type-gemini:: Gemini-officially分组
 ::: info 详情卡片
 - **分组介绍：**
-    - 完全接的官方渠道的Gemini API，价格对标官方，适合企业用户。当前该分组暂时没有可用资源。
+    - 完全接的官方渠道的Gemini API，价格对标官方，适合企业用户。
 
 - **推荐接入方式：**
     - Cline / Roo Code 等工具（**不推荐 Gemini CLI**）
@@ -408,6 +408,23 @@ date: 2026-06-10
 
 <ClientOnly>
   <ModelList group="typesafe-officially" />
+</ClientOnly>
+:::
+
+## Meta Muse
+
+### ::simple-icons:meta:: muse-officially分组
+::: info 详情卡片
+- **分组介绍：**
+    - Meta Muse 官方渠道，提供 Muse 系列模型，可用 openai 与 openai-response 两种协议调用
+
+- **是否支持接入第三方：**
+    - √支持
+
+- **模型列表（实时查询）：**
+
+<ClientOnly>
+  <ModelList group="muse-officially" />
 </ClientOnly>
 :::
 

@@ -2,6 +2,9 @@
 title: 令牌分组介绍
 icon: ic:baseline-generating-tokens
 order: 2
+# 分组卡片的标题是组件运行时渲染的 h3，默认的「此页内容」只取 #markdown-content 直接子级标题，收不到；这里改成取全部后代标题
+toc:
+  selector: "#markdown-content h1, #markdown-content h2, #markdown-content h3, #markdown-content h4, #markdown-content h5, #markdown-content h6, [vp-content] > h2"
 ---
 
 <!-- 「请求格式」由组件按 /api/pricing 实时汇总：分组内每个模型先看 model_group_endpoints 的覆盖，再看自身 supported_endpoint_types，取并集；旧分组已查不到模型，这一栏显示 — -->
@@ -49,6 +52,10 @@ order: 2
 ## TypeSafe
 
 <GroupCards groups="typesafe-officially" />
+
+## Meta Muse
+
+<GroupCards groups="muse-officially" />
 
 ## 绘图模型
 
@@ -312,7 +319,7 @@ const GROUP_META = {
   "codex": { icons: ["hugeicons:chat-gpt"], name: "Codex分组", desc: "使用 Codex 需要选择此分组！主要分组之一，专门用于 Codex 使用，不能接入第三方。这个分组的模型都是对编程特化的，适合写代码、改代码这类任务。", thirdParty: false },
   "azure-officially": { icons: ["devicon:azure", "hugeicons:chat-gpt"], name: "Azure-officially分组", desc: "Azure官方渠道，提供GPT相关模型，可以使用在OpenCode等第三方工具中，也可以拿来聊天", thirdParty: true },
   "gemini-slb": { icons: ["vscode-icons:file-type-gemini"], name: "Gemini-slb分组", desc: "Gemini企业号池，更加稳定一些，不过价格稍贵，用 Gemini 系列一般接入这个分组的号池，体验很不错。推荐通过 Cline / Roo Code 等工具接入，不推荐 Gemini CLI", thirdParty: true },
-  "gemini-officially": { icons: ["vscode-icons:file-type-gemini"], name: "Gemini-officially分组", desc: "完全接的官方渠道的Gemini API，价格对标官方，适合企业用户。推荐通过 Cline / Roo Code 等工具接入，不推荐 Gemini CLI。当前该分组暂时没有可用资源。", thirdParty: true },
+  "gemini-officially": { icons: ["vscode-icons:file-type-gemini"], name: "Gemini-officially分组", desc: "完全接的官方渠道的Gemini API，价格对标官方，适合企业用户。推荐通过 Cline / Roo Code 等工具接入，不推荐 Gemini CLI", thirdParty: true },
   "deepseek-sale": { icons: ["simple-icons:deepseek"], name: "DeepSeek-sale分组", desc: "DeepSeek 优惠渠道，倍率 0.5，比 DeepSeek-officially 便宜一半。同样适用高峰时段 2 倍计价（工作日 09:00-12:00、14:00-18:00，北京时间）", thirdParty: true },
   "deepseek-officially": { icons: ["simple-icons:deepseek"], name: "DeepSeek-officially分组", desc: "DeepSeek官方渠道，提供DeepSeek相关模型。这些模型在工作日 09:00-12:00、14:00-18:00（北京时间）按高峰时段 2 倍计价", thirdParty: true },
   "glm-sale": { icons: ["simple-icons:openaigym"], name: "GLM-sale分组", desc: "GLM模型的优惠分组，提供价格较低的GLM相关模型", thirdParty: true },
@@ -325,6 +332,7 @@ const GROUP_META = {
   "minimax-officially": { icons: ["material-symbols:token"], name: "Minimax-officially分组", desc: "minimax官方渠道，提供较为廉价的minimax模型", thirdParty: true },
   "bailian": { icons: ["simple-icons:alibabacloud"], name: "Bailian分组", desc: "阿里百炼官方版本渠道，此分组模型使用会按阶梯计价", thirdParty: true },
   "typesafe-officially": { icons: ["material-symbols:shield-outline"], name: "typesafe-officially分组", desc: "TypeSafe 官方渠道，提供 jev 系列模型。该分组的接口类型只有 systemone（/v1/systemone），不是 Anthropic / OpenAI 协议，普通 CLI 工具接不了", thirdParty: true },
+  "muse-officially": { icons: ["simple-icons:meta"], name: "muse-officially分组", desc: "Meta Muse 官方渠道，提供 Muse 系列模型，可用 openai 与 openai-response 两种协议调用", thirdParty: true },
   "image": { icons: ["material-symbols:image-outline"], name: "Image分组", desc: "官方稳定的Image绘图模型聚合分组，具体使用方法可参考「绘图模型教程」章节", thirdParty: true },
   "video": { icons: ["material-symbols:movie-outline"], name: "video分组", desc: "视频生成专用渠道，提供 MiniMax H3 系列视频模型，走 /v2/video_generation 与 /v2/video_regeneration 两个接口", thirdParty: true },
 };

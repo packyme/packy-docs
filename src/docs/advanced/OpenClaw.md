@@ -82,8 +82,8 @@ curl -fsSL https://github.com/packyme/openclaw-configurator/releases/latest/down
 ::: tip
 **目前推荐在OpenClaw使用的分组：**
 
-- **GPT：[codex分组](/docs/token/2-group.html#codex分组)、[gpt-officially分组](/docs/token/2-group.html#gpt-officially分组)**
-- **Claude：[aws-q分组](/docs/token/2-group.html#aws-q分组)、[aws分组](/docs/token/2-group.html#aws分组)、[claude-officially分组](/docs/token/2-group.html#claude-officially分组)**
+- **GPT：[codex分组](/docs/token/2-group.html#codex分组)、[azure-officially分组](/docs/token/2-group.html#azure-officially分组)**
+- **Claude：[aws-q分组](/docs/token/2-group.html#aws-q分组)、[claude-officially分组](/docs/token/2-group.html#claude-officially分组)**
 
 - **Gemini**：[gemini-slb分组](/docs/token/2-group.html#gemini-slb分组)
 
