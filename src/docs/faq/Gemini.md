@@ -19,7 +19,6 @@ Google 官方 **Gemini CLI**（`@google/gemini-cli`）目前稳定性较差，�
 - **Cline**（见下方教程）
 - **Roo Code**
 - [OpenCode](/docs/advanced/OpenCode.html)
-- [AionUI](/docs/advanced/AionUI.html)
 
 令牌请创建 [Gemini-officially](/docs/token/2-group.html#gemini-officially分组) 或更稳的 [Gemini-slb](/docs/token/2-group.html#gemini-slb分组) 分组。
 

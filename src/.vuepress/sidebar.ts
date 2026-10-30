@@ -178,11 +178,6 @@ export default sidebar({
             collapsible: false,
             children: [
                 {
-                    text: "AionUi",
-                    icon: "akar-icons:paper-airplane",
-                    link: "AionUI.md",
-                },
-                {
                     text: "OpenCode",
                     icon: "mynaui:code-hexagon-solid",
                     link: "OpenCode.md",
