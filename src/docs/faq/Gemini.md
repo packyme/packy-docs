@@ -21,7 +21,7 @@ Google 官方 **Gemini CLI**（`@google/gemini-cli`）目前稳定性较差，�
 - [OpenCode](/docs/advanced/OpenCode.html)
 - [AionUI](/docs/advanced/AionUI.html)
 
-令牌请创建 [Gemini](/docs/token/2-group.html#gemini分组) 或更稳的 [Gemini-slb](/docs/token/2-group.html#gemini-slb分组) 分组；企业官方渠道可选 [Gemini-officially](/docs/token/2-group.html#gemini-officially分组)。
+令牌请创建 [Gemini-officially](/docs/token/2-group.html#gemini-officially分组) 或更稳的 [Gemini-slb](/docs/token/2-group.html#gemini-slb分组) 分组。
 
 ### 如何在 Cline 使用 Gemini-3
 
@@ -33,7 +33,7 @@ Google 官方 **Gemini CLI**（`@google/gemini-cli`）目前稳定性较差，�
 
 #### 1. 创建 Gemini 分组令牌
 
-按照 [创建 API 令牌](/docs/register/4-token.html) 的方法，创建 **Gemini** 或 **Gemini-slb** 分组令牌（跑 Gemini-3 建议 slb）：
+按照 [创建 API 令牌](/docs/register/4-token.html) 的方法，创建 **Gemini-officially** 或 **Gemini-slb** 分组令牌（跑 Gemini-3 建议 slb）：
 
 ![创建 API 选择分组示意图](/assets/image/FAQ/Gemini/002.webp)
 

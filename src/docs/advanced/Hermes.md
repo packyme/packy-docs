@@ -64,7 +64,7 @@ hermes
     ::: important
     **目前推荐在 Hermes 使用的分组：**
 
-    - **Claude：[aws-q分组](/docs/token/2-group.html#aws-q分组)、[cc-sale分组](/docs/token/2-group.html#cc-sale分组)、[claude-officially分组](/docs/token/2-group.html#claude-officially分组)、cc-expensive分组**
+    - **Claude：[aws-q分组](/docs/token/2-group.html#aws-q分组)、[cc-sale分组](/docs/token/2-group.html#cc-sale分组)、[claude-officially分组](/docs/token/2-group.html#claude-officially分组)、[cc-expensive分组](/docs/token/2-group.html#cc-expensive分组)**
 
     **请您创建正确分组的APIKEY后填入**
     :::
