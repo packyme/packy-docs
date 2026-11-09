@@ -93,10 +93,10 @@ onBeforeUnmount(() => {
       class="qq-card blue-card"
       role="button"
       tabindex="0"
-      aria-label="复制售后QQ群七"
-      @click="copyQQ('698258286', 'qq7')"
-      @keydown.enter.prevent="copyQQ('698258286', 'qq7')"
-      @keydown.space.prevent="copyQQ('698258286', 'qq7')"
+      aria-label="复制售后QQ群八"
+      @click="copyQQ('1134136500', 'qq8')"
+      @keydown.enter.prevent="copyQQ('1134136500', 'qq8')"
+      @keydown.space.prevent="copyQQ('1134136500', 'qq8')"
     >
       <div class="card-bg"></div>
       <div class="card-content">
@@ -104,17 +104,17 @@ onBeforeUnmount(() => {
           <img
             class="qq-logo"
             src="/assets/image/logo/qq.webp"
-            alt="售后QQ群七"
+            alt="售后QQ群八"
           />
           <div class="logo-glow"></div>
         </div>
         <div class="qq-meta">
-          <p class="qq-label">售后QQ群七</p>
-          <p class="qq-number">698258286</p>
+          <p class="qq-label">售后QQ群八</p>
+          <p class="qq-number">1134136500</p>
         </div>
         <div class="card-shine"></div>
       </div>
-      <div v-if="activeCard === 'qq7'" class="inline-notice">
+      <div v-if="activeCard === 'qq8'" class="inline-notice">
         <span class="notice-pill">{{ noticeText }}</span>
       </div>
     </div>

@@ -49,7 +49,7 @@ kimi --version
 3. 从下面三种协议中选择一种配置，不要把三个示例同时写入配置文件。
 
 ::: important 令牌分组必须匹配
-`CC` 和 `claude-sale` 分组不能用于第三方 CLI 接入。请以模型广场实时展示的模型 ID、支持协议和可用令牌分组为准。
+`cc` 分组不能用于第三方 CLI 接入。请以模型广场实时展示的模型 ID、支持协议和可用令牌分组为准。
 :::
 
 模型详情页会列出该模型支持的 API 端点。例如下图中的模型同时支持 Anthropic Messages、OpenAI Chat Completions 和 OpenAI Responses：
