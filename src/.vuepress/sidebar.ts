@@ -230,6 +230,11 @@ export default sidebar({
                     icon: "material-symbols:cached",
                     link: "5-cache-fix.md",
                 },
+                {
+                    text: "Claude Code auto-compact 小技巧",
+                    icon: "material-icon-theme:claude",
+                    link: "8-autocompact.md",
+                },
             ],
         },
         {
