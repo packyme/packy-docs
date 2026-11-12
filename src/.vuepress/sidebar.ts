@@ -230,6 +230,11 @@ export default sidebar({
                     icon: "material-icon-theme:claude",
                     link: "8-autocompact.md",
                 },
+                {
+                    text: "Agent Desktop",
+                    icon: "material-symbols:computer",
+                    link: "AgentDesktop.md",
+                },
             ],
         },
         {
