@@ -53,5 +53,5 @@ Claude Code 默认开着 **auto-compact**。名字像是在自动压缩上下文
 | 必须完整上下文 | 保持默认，接受后期每条消息更贵 |
 
 ::: tip 相关阅读
-先完成 [Claude Code 配置](/docs/cli/2-claude.html) 后再调这个参数更稳妥。也可对照 [Claude Code 缓存优化代理](/docs/cli/5-cache-fix.html) 一起看额度相关优化。
+先完成 [Claude Code 配置](/docs/cli/2-claude.html) 后再调这个参数更稳妥。
 :::

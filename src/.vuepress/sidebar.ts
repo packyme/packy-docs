@@ -221,11 +221,6 @@ export default sidebar({
             collapsible: false,
             children: [
                 {
-                    text: "Claude Code 缓存优化代理",
-                    icon: "material-symbols:cached",
-                    link: "5-cache-fix.md",
-                },
-                {
                     text: "Claude Code auto-compact 小技巧",
                     icon: "material-icon-theme:claude",
                     link: "8-autocompact.md",
