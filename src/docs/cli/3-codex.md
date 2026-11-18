@@ -102,9 +102,11 @@ web_search_request = true
 
 [model_providers.packycode]
 base_url = "https://cf.api.fan/v1"
+model_catalog_url = "https://cf.api.fan/v1/models"
 name = "packycode"
 requires_openai_auth = true
 wire_api = "responses"
+experimental_bearer_token = "sk-xxx"
 
 [tui]
 screen_reader_detection_done = true
@@ -114,6 +116,9 @@ sandbox = "elevated"
 ```
 
 ![](/assets/image/Cli/038.webp)
+
+> [!important]
+> 必须保留 `requires_openai_auth = true`，并按第 4 步写好 `auth.json`。`experimental_bearer_token` 必须和 `auth.json` 中的 `OPENAI_API_KEY` 相同，写配置时把这两处填成同一把 Packy API 密钥；示例里的 `sk-xxx` 换成你复制到的密钥。
 
 > [!important]
 > `model` 要填 [Codex分组](/docs/token/2-group.html) 里实时展示的可用模型 ID，`gpt-5.3-codex` 及其以下版本已被官方删除。上图填的 `gpt-6-astra` 是当时 Codex 分组在售的模型，实际以该页面的实时列表为准。
