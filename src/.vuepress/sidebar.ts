@@ -230,6 +230,11 @@ export default sidebar({
                     icon: "material-symbols:computer",
                     link: "AgentDesktop.md",
                 },
+                {
+                    text: "SSH MCP",
+                    icon: "mdi:ssh",
+                    link: "SshMcp.md",
+                },
             ],
         },
         {
