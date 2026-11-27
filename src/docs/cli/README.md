@@ -259,9 +259,13 @@ sandbox = "elevated"
 
 ```json
 {
+  "auth_mode": "apikey",
   "OPENAI_API_KEY": "xxx"
 }
 ```
+
+> [!important]
+> `auth_mode` 用于按 API 密钥登录，值必须写成小写 `apikey`。
 
 5. 回顾 [创建API令牌](/docs/register/4-token.html) 这一步教程，我们需要在PackyApi中创建 **Codex** 分组的令牌，提交后在弹窗里复制完整密钥（只显示一次，关掉就看不到了）
 
